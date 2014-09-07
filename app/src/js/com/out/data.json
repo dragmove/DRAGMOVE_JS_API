@@ -1,0 +1,3644 @@
+{
+    "project": {},
+    "files": {
+        "dragmove\\data\\DateData.js": {
+            "name": "dragmove\\data\\DateData.js",
+            "modules": {},
+            "classes": {
+                "DateData": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\data\\LanguageData.js": {
+            "name": "dragmove\\data\\LanguageData.js",
+            "modules": {},
+            "classes": {
+                "LanguageData": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\debug\\Debug.js": {
+            "name": "dragmove\\debug\\Debug.js",
+            "modules": {},
+            "classes": {
+                "Debug": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\effect\\motion\\ClipCircle.js": {
+            "name": "dragmove\\effect\\motion\\ClipCircle.js",
+            "modules": {},
+            "classes": {
+                "ClipCircle": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\effect\\motion\\MovieClip.js": {
+            "name": "dragmove\\effect\\motion\\MovieClip.js",
+            "modules": {},
+            "classes": {
+                "MovieClip": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\effect\\EffectUtil.js": {
+            "name": "dragmove\\effect\\EffectUtil.js",
+            "modules": {},
+            "classes": {
+                "EffectUtil": 1,
+                "EffectUtil.TypeWriter": 1,
+                "EffectUtil.EntranceExpansion": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\net\\ImageLoader.js": {
+            "name": "dragmove\\net\\ImageLoader.js",
+            "modules": {},
+            "classes": {
+                "ImageLoader": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\ArrayUtil.js": {
+            "name": "dragmove\\util\\ArrayUtil.js",
+            "modules": {},
+            "classes": {
+                "ArrayUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\BrowserUtil.js": {
+            "name": "dragmove\\util\\BrowserUtil.js",
+            "modules": {},
+            "classes": {
+                "BrowserUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\CanvasUtil.js": {
+            "name": "dragmove\\util\\CanvasUtil.js",
+            "modules": {},
+            "classes": {
+                "CanvasUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\CheckUtil.js": {
+            "name": "dragmove\\util\\CheckUtil.js",
+            "modules": {},
+            "classes": {
+                "CheckUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\ControlUtil.js": {
+            "name": "dragmove\\util\\ControlUtil.js",
+            "modules": {},
+            "classes": {
+                "ControlUtil": 1,
+                "ControlUtil.SimpleTimer": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\CookieUtil.js": {
+            "name": "dragmove\\util\\CookieUtil.js",
+            "modules": {},
+            "classes": {
+                "CookieUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\InitUtil.js": {
+            "name": "dragmove\\util\\InitUtil.js",
+            "modules": {},
+            "classes": {
+                "InitUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\InteractionUtil.js": {
+            "name": "dragmove\\util\\InteractionUtil.js",
+            "modules": {},
+            "classes": {
+                "InteractionUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\MathUtil.js": {
+            "name": "dragmove\\util\\MathUtil.js",
+            "modules": {},
+            "classes": {
+                "MathUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\NodeUtil.js": {
+            "name": "dragmove\\util\\NodeUtil.js",
+            "modules": {},
+            "classes": {
+                "NodeUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\StringUtil.js": {
+            "name": "dragmove\\util\\StringUtil.js",
+            "modules": {},
+            "classes": {
+                "StringUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "dragmove\\util\\XmlUtil.js": {
+            "name": "dragmove\\util\\XmlUtil.js",
+            "modules": {},
+            "classes": {
+                "XmlUtil": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "DateData": {
+            "name": "DateData",
+            "shortname": "DateData",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\data\\DateData.js",
+            "line": 26,
+            "description": "DateData",
+            "is_constructor": 1
+        },
+        "LanguageData": {
+            "name": "LanguageData",
+            "shortname": "LanguageData",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\data\\LanguageData.js",
+            "line": 26,
+            "description": "LanguageData",
+            "is_constructor": 1
+        },
+        "Debug": {
+            "name": "Debug",
+            "shortname": "Debug",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\debug\\Debug.js",
+            "line": 26,
+            "description": "Debug",
+            "is_constructor": 1
+        },
+        "ClipCircle": {
+            "name": "ClipCircle",
+            "shortname": "ClipCircle",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\effect\\motion\\ClipCircle.js",
+            "line": 26,
+            "description": "ClipCircle - half circle transition. need TweenMax, jQuery Library (TEST COMPLETE - Chrome, Firefox, Safari, mobile Safari. iphone4, ipad3, GalaxyS3. BAD EFFECT - IE9. UNSUPPORTED - IE7,8.",
+            "is_constructor": 1,
+            "requires": [
+                "TweenMax"
+            ],
+            "example": [
+                "\n\t<!-- DOM -->\n\t<div class=\"clipCircle\">\n\t\t<div class=\"clipCircleMask\">\n\t\t\t<div class=\"halfCircle\"></div> <!-- half circle -->\n\t\t\t<div class=\"halfCircle\"></div> <!-- half circle --> <!-- when 50%, addClass .fix180deg -->\n\t\t</div>\n\t</div>\n\t\n\t<!-- css -->\n\tcom.dragmove.dragmove-api.css\n\t\n\t<!-- js -->\n\tvar _clipCircle = new ClipCircle();\n\tvar initOpt = {\n\t\tcontents:$(\".clipCircle\").get(0)\n\t};\n\t_clipCircle.init(initOpt);\n\t\n\tvar entranceOpt = {\n\t\tdegree:250,\n\t\tdelay:1,\n\t\tspeed:2,\n\t\tease:Quint.easeInOut\n\t};\n\t_clipCircle.entrance(entranceOpt);"
+            ]
+        },
+        "MovieClip": {
+            "name": "MovieClip",
+            "shortname": "MovieClip",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 26,
+            "description": "MovieClip - set display property none, block to added node. (TEST COMPLETE - IE7,8,9,10, Chrome, Firefox, Safari, mobile Safari. iphone4, ipad3, galaxyS3, galaxyTab2 7.0)",
+            "is_constructor": 1,
+            "example": [
+                "\n\t<!-- DOM -->\n\t<div class=\"container\">\n\t\t<img class=\"sequence_1\" src=\"img/seq_1.png\" alt=\"\" />\n\t\t<img class=\"sequence_2\" src=\"img/seq_2.png\" alt=\"\" />\n\t\t<img class=\"sequence_3\" src=\"img/seq_3.png\" alt=\"\" />\n\t\t<img class=\"sequence_4\" src=\"img/seq_4.png\" alt=\"\" />\n\t\t<img class=\"sequence_5\" src=\"img/seq_5.png\" alt=\"\" />\n\t\t<img class=\"sequence_6\" src=\"img/seq_6.png\" alt=\"\" />\n\t\t<img class=\"sequence_7\" src=\"img/seq_7.png\" alt=\"\" />\n\t\t<img class=\"sequence_8\" src=\"img/seq_8.png\" alt=\"\" />\n\t\t<img class=\"sequence_9\" src=\"img/seq_9.png\" alt=\"\" />\n\t\t<img class=\"sequence_10\" src=\"img/seq_10.png\" alt=\"\" />\n\t</div>\n\t<div id=\"movieClipContainer\">\n\t</div>\n\t\n\t// init -> setDisplayPropertyValue -> addFrameNode -> gotoAndStop(1) -> use instance method\n\t\n\tvar _imageLoader;\n\tvar _$container;\n\tvar _movieClip;\n\t\n\t$(document).ready(function() {\n\t\tinit();\n\t});\n\t\n\tfunction init() {\n\t\t_$container = $(\".container\");\n\t\t\n\t\t_imageLoader = new ImageLoader();\n\t\t$(_imageLoader).bind(_imageLoader.LOAD_COMPLETE, imageLoaderHandler);\n\t\t$(_imageLoader).bind(_imageLoader.LOAD_PER_COMPLETE, imageLoaderHandler);\n\t\t$(_imageLoader).bind(_imageLoader.LOAD_ERROR, imageLoaderHandler);\n\t\t_imageLoader.init();\n\t\t\n\t\tvar imgArr = $(\"img\", _$container);\n\t\tvar _img;\n\t\tfor(var i=0, max=imgArr.length; i<max; i++) {\n\t\t\t_img = imgArr[i];\n\t\t\t_imageLoader.addURL(_img.src);\n\t\t}\n\t\t_imageLoader.start();\n\t}\n\t\n\tfunction imageLoaderHandler($evt) {\n\t\tswitch($evt.type) {\n\t\t\tcase _imageLoader.LOAD_COMPLETE :\n\t\t\t\tDebug.log(\"LOAD_COMPLETE\")\n\t\t\t\tsetMovieClip();\n\t\t\tbreak;\n\t\t\t\n\t\t\tcase _imageLoader.LOAD_PER_COMPLETE :\n\t\t\tbreak;\n\t\t\t\n\t\t\tcase _imageLoader.LOAD_ERROR :\n\t\t\tbreak;\n\t\t}\n\t}\n\t\n\tfunction setMovieClip() {\n\t\t_movieClip = new MovieClip();\n\t\t_movieClip.init();\n\t\t_movieClip.setDisplayPropertyValue(\"inline\");\n\t\t\n\t\tvar _movieClipContainer = $(\"#movieClipContainer\").get(0);\n\t\tvar imageArr = _imageLoader.getLoadedImageArr();\n\t\tvar _image;\n\t\tfor(var i=0, max=imageArr.length; i<max; i++) {\n\t\t\t_image = imageArr[i];\n\t\t\t_image.style.display = \"none\";\n\t\t\t_movieClipContainer.appendChild(_image);\n\t\t\t\n\t\t\t_movieClip.addFrameNode(_image);\n\t\t}\n\t\t_movieClip.gotoAndStop(1);\n\t\t\n\t\tTweenMax.delayedCall(3, function() {\n\t\t\t_movieClip.play();\n\t\t});\n\t\t\n\t\tTweenMax.delayedCall(4, function() {\n\t\t\t_movieClip.rewind();\n\t\t});\n\t}"
+            ]
+        },
+        "EffectUtil": {
+            "name": "EffectUtil",
+            "shortname": "EffectUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\effect\\EffectUtil.js",
+            "line": 26,
+            "description": "EffectUtil",
+            "is_constructor": 1
+        },
+        "EffectUtil.TypeWriter": {
+            "name": "EffectUtil.TypeWriter",
+            "shortname": "EffectUtil.TypeWriter",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\effect\\EffectUtil.js",
+            "line": 36,
+            "description": "Text TypeWrite Motion. need jQuery Library (html tag String can't apply typeWriter motion.)",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "_txt",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_textNode",
+                    "description": "",
+                    "type": "DOM"
+                },
+                {
+                    "name": "_typingTimerGap",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "_flag_startTimer",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "requires": [
+                "jQuery",
+                "StringUtil",
+                "ControlUtil"
+            ],
+            "example": [
+                "\n\t<!-- DOM -->\n\t<body>\n\t\t<div id=\"typeWriterMotionContainer\">target textNode</div>\n\t</body>\n\t\n\tvar typeStr = \"매일 자신이 하기 싫은 일을 2가지 하는 것은 영혼을 위해서는 좋다. - 달과 6펜스\";  \n\tvar _textNode = document.getElementById(\"typeWriterMotionContainer\").firstChild; //select textNode\n\t\n\tvar _typeWriterEffect = new EffectUtil.TypeWriter(typeStr, _textNode, 40, false);\n\t\n\t$(_typeWriterEffect).bind(_typeWriterEffect.EFFECT_COMPLETE, completeTypeWriterEffect);\n\t_typeWriterEffect.start();\n\t\n\tfunction completeTypeWriterEffect() {\n\t\tconsole.log(\"completeTypeWriterEffect\");\n\t};"
+            ]
+        },
+        "EffectUtil.EntranceExpansion": {
+            "name": "EffectUtil.EntranceExpansion",
+            "shortname": "EffectUtil.EntranceExpansion",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\effect\\EffectUtil.js",
+            "line": 171,
+            "description": "Transition Entrace - Expansion. need TweenMax, jQuery Library (TEST COMPLETE - IE7,8,9, Chrome, Firefox, Safari, mobile Safari. iphone4, ipad3, galaxyS3)",
+            "is_constructor": 1,
+            "example": [
+                "\n\t<!-- DOM -->\n\t<div class=\"imageContainer\">\n\t\t<img class=\"circle\" width=\"200\" height=\"200\" src=\"./img/circle.png\" alt=\"\" />\n\t</div> \n\t\n\tvar _$imageContainer = $(\".imageContainer\");\n\tvar _$circle = $(\".circle\", _$imageContainer);\n\t\n\t//Entrance Expansion example\n\tvar _entranceExpansion = new EntranceExpansion();\n\t\n\tvar initOpt = {\n\t\tcontainer:_$imageContainer.get(0),\n\t\timgInContainer:_$circle.get(0)\n\t};\n\t_entranceExpansion.init(initOpt);\n\t\n\tvar entranceOpt = {\n\t\tdelay:2,\n\t\tspeed:1.5,\n\t\tease:Cubic.easeInOut\n\t}\n\t_entranceExpansion.entrance(entranceOpt);"
+            ]
+        },
+        "ImageLoader": {
+            "name": "ImageLoader",
+            "shortname": "ImageLoader",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\net\\ImageLoader.js",
+            "line": 26,
+            "description": "ImageLoader",
+            "is_constructor": 1,
+            "example": [
+                "\n\t<!-- DOM -->\n\t<div class=\"container\">\n\t\t<img class=\"sequence_1\" src=\"img/seq_1.png\" alt=\"\" />\n\t\t<img class=\"sequence_2\" src=\"img/seq_2.png\" alt=\"\" />\n\t\t<img class=\"sequence_3\" src=\"img/seq_3.png\" alt=\"\" />\n\t\t<img class=\"sequence_4\" src=\"img/seq_4.png\" alt=\"\" />\n\t\t<img class=\"sequence_5\" src=\"img/seq_5.png\" alt=\"\" />\n\t\t<img class=\"sequence_6\" src=\"img/seq_6.png\" alt=\"\" />\n\t\t<img class=\"sequence_7\" src=\"img/seq_7.png\" alt=\"\" />\n\t\t<img class=\"sequence_8\" src=\"img/seq_8.png\" alt=\"\" />\n\t\t<img class=\"sequence_9\" src=\"img/seq_9.png\" alt=\"\" />\n\t\t<img class=\"sequence_10\" src=\"img/seq_10.png\" alt=\"\" />\n\t</div>\n\t\n\tvar _imageLoader;\n\tvar _$container;\n\t\n\t$(document).ready(function() {\n\t\tinit();\n\t});\n\t\n\tfunction init() {\n\t\t_$container = $(\".container\");\n\t\t\n\t\t_imageLoader = new ImageLoader();\n\t\t$(_imageLoader).bind(_imageLoader.LOAD_COMPLETE, imageLoaderHandler);\n\t\t$(_imageLoader).bind(_imageLoader.LOAD_PER_COMPLETE, imageLoaderHandler);\n\t\t$(_imageLoader).bind(_imageLoader.LOAD_ERROR, imageLoaderHandler);\n\t\t_imageLoader.init();\n\t\t\n\t\tvar imgArr = $(\"img\", _$container);\n\t\tvar _img;\n\t\tfor(var i=0, max=imgArr.length; i<max; i++) {\n\t\t\t_img = imgArr[i];\n\t\t\t_imageLoader.addURL(_img.src);\n\t\t}\n\t\t_imageLoader.start();\n\t}\n\t\n\tfunction imageLoaderHandler($evt) {\n\t\tswitch($evt.type) {\n\t\t\tcase _imageLoader.LOAD_COMPLETE :\n\t\t\t\tconsole.log(\"LOAD_COMPLETE\");\n\t\t\t\tconsole.log(_imageLoader.getPercentageLoaded());\n\t\t\t\tconsole.log(_imageLoader.getFinished());\n\t\t\t\tconsole.log(_imageLoader.getLoadFailNum());\n\t\t\t\tconsole.log(_imageLoader.getLoadSuccessNum());\n\t\t\t\t\n\t\t\t\t//\n\t\t\t\tconsole.log(_imageLoader.getImageArr());\n\t\t\t\tconsole.log(_imageLoader.getLoadedImageArr());\n\t\t\tbreak;\n\t\t\t\n\t\t\tcase _imageLoader.LOAD_PER_COMPLETE :\n\t\t\t\tconsole.log(\"LOAD_PER_COMPLETE\");\n\t\t\t\tconsole.log(_imageLoader.getPercentageLoaded());\n\t\t\tbreak;\n\t\t\t\n\t\t\tcase _imageLoader.LOAD_ERROR :\n\t\t\t\tconsole.log(\"LOAD_ERROR\");\n\t\t\t\tconsole.log(_imageLoader.getPercentageLoaded());\n\t\t\tbreak;\n\t\t}\n\t}"
+            ]
+        },
+        "ArrayUtil": {
+            "name": "ArrayUtil",
+            "shortname": "ArrayUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 26,
+            "description": "ArrayUtil",
+            "is_constructor": 1
+        },
+        "BrowserUtil": {
+            "name": "BrowserUtil",
+            "shortname": "BrowserUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 26,
+            "description": "BrowserUtil",
+            "is_constructor": 1
+        },
+        "CanvasUtil": {
+            "name": "CanvasUtil",
+            "shortname": "CanvasUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\CanvasUtil.js",
+            "line": 26,
+            "description": "CanvasUtil",
+            "is_constructor": 1
+        },
+        "CheckUtil": {
+            "name": "CheckUtil",
+            "shortname": "CheckUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 26,
+            "description": "CheckUtil",
+            "is_constructor": 1
+        },
+        "ControlUtil": {
+            "name": "ControlUtil",
+            "shortname": "ControlUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\ControlUtil.js",
+            "line": 26,
+            "description": "ControlUtil",
+            "is_constructor": 1
+        },
+        "ControlUtil.SimpleTimer": {
+            "name": "ControlUtil.SimpleTimer",
+            "shortname": "ControlUtil.SimpleTimer",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\ControlUtil.js",
+            "line": 33,
+            "description": "SimpleTimer",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "_gapTime",
+                    "description": "timer gap",
+                    "type": "Number"
+                },
+                {
+                    "name": "_callbackScope",
+                    "description": "scope object",
+                    "type": "Object"
+                },
+                {
+                    "name": "_callbackFunc",
+                    "description": "callback function",
+                    "type": "Function"
+                },
+                {
+                    "name": "_callbackFuncArgumentsArr",
+                    "description": "callback function arguments array",
+                    "type": "Array"
+                }
+            ],
+            "example": [
+                "\n\t//EXAMPLE 1. perform function\n\tfunction timerTestFunc() {\n\t\tconsole.log('private timerTestFunc');\n\t}\n\t\n\tvar _function = timerTestFunc; //단일 function\n\tvar _simpleTimer = new ControlUtil.SimpleTimer( 1000, this, _function );\n\t_simpleTimer.start();\n\t//_simpleTimer.stop();\n\t\n\t//EXAMPLE 2. perform Object function include arguments\n\tvar _functionObj = {};\n\t_functionObj.timerTestFuncIncludeArgument = function(_param_1, _param_2, _param_3) {\n\t\tconsole.log('function Object function included Object : ', _param_1, _param_2, _param_3);\n\t};\n\t\n\tvar _function = _functionObj.timerTestFuncIncludeArgument; //객체에 귀속된 function\n\tvar _simpleTimer = new ControlUtil.SimpleTimer( 1000, this, _function, [0, \"dragmove\", {x:100, y:200}] );\n\t_simpleTimer.start();\n\t//_simpleTimer.stop();\n\t\n\t//EXAMPLE 3. perform function include arguments\n\tfunction timerTestFuncIncludeArgument(_param_1, _param_2, _param_3) {\n\t\tconsole.log('private function : ', _param_1, _param_2, _param_3);\n\t}\n\t\n\tvar _function = timerTestFuncIncludeArgument; //단일 function\n\tvar _simpleTimer = new ControlUtil.SimpleTimer( 1000, this, _function, [0, \"dragmove\", {x:100, y:200}] );\n\t_simpleTimer.start();\n\t//_simpleTimer.stop();"
+            ]
+        },
+        "CookieUtil": {
+            "name": "CookieUtil",
+            "shortname": "CookieUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 26,
+            "description": "CookieUtil",
+            "is_constructor": 1
+        },
+        "InitUtil": {
+            "name": "InitUtil",
+            "shortname": "InitUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\InitUtil.js",
+            "line": 26,
+            "description": "InitUtil",
+            "is_constructor": 1
+        },
+        "InteractionUtil": {
+            "name": "InteractionUtil",
+            "shortname": "InteractionUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\InteractionUtil.js",
+            "line": 26,
+            "description": "InteractionUtil",
+            "is_constructor": 1
+        },
+        "MathUtil": {
+            "name": "MathUtil",
+            "shortname": "MathUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 26,
+            "description": "MathUtil",
+            "is_constructor": 1
+        },
+        "NodeUtil": {
+            "name": "NodeUtil",
+            "shortname": "NodeUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 26,
+            "description": "NodeUtil",
+            "is_constructor": 1
+        },
+        "StringUtil": {
+            "name": "StringUtil",
+            "shortname": "StringUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 26,
+            "description": "StringUtil",
+            "is_constructor": 1
+        },
+        "XmlUtil": {
+            "name": "XmlUtil",
+            "shortname": "XmlUtil",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "dragmove\\util\\XmlUtil.js",
+            "line": 26,
+            "description": "XmlUtil",
+            "is_constructor": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 33,
+            "description": "English days",
+            "itemtype": "property",
+            "name": "DateData.DAYS",
+            "type": "{Array}",
+            "default": "[\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 42,
+            "description": "English abbreviated days",
+            "itemtype": "property",
+            "name": "DateData.DAYS_ABBREVIATED",
+            "type": "{Array}",
+            "default": "[\"Sun\", \"Mon\", \"Tues\", \"Wed\", \"Thurs\", \"Fri\", \"Sat\"];",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 51,
+            "description": "Korean days",
+            "itemtype": "property",
+            "name": "DateData.DAYS_KOR",
+            "type": "{Array}",
+            "default": "[\"일\", \"월\", \"화\", \"수\", \"목\", \"금\", \"토\"];",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 60,
+            "description": "English months",
+            "itemtype": "property",
+            "name": "DateData.MONTHS",
+            "type": "{Array}",
+            "default": "[\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 69,
+            "description": "English abbreviated months",
+            "itemtype": "property",
+            "name": "DateData.MONTHS_ABBREVIATED",
+            "type": "{Array}",
+            "default": "[\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\", \"Jul\", \"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\"];",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 78,
+            "description": "Days in month",
+            "itemtype": "property",
+            "name": "DateData.DAYSINMONTH",
+            "type": "{Array}",
+            "default": "[31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 87,
+            "description": "1 Minute to Sec unit - 60 Sec",
+            "itemtype": "property",
+            "name": "DateData.MIN_TO_SEC",
+            "type": "{Number}",
+            "default": "60",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 96,
+            "description": "1 Hour to Sec unit - 360 Sec",
+            "itemtype": "property",
+            "name": "DateData.HOUR_TO_SEC",
+            "type": "{Number}",
+            "default": "86400 (60 * 60)",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\DateData.js",
+            "line": 105,
+            "description": "1 Day to Sec unit - 8640 Sec",
+            "itemtype": "property",
+            "name": "DateData.DAY_TO_SEC",
+            "type": "{Number}",
+            "default": "86400 (60 * 60 * 24)",
+            "class": "DateData"
+        },
+        {
+            "file": "dragmove\\data\\LanguageData.js",
+            "line": 33,
+            "description": "Korean initial sound",
+            "itemtype": "property",
+            "name": "LanguageData.INITIAL_JAMO_KOR",
+            "type": "{Array}",
+            "default": "[\"ㄱ\",\"ㄲ\",\"ㄴ\",\"ㄷ\",\"ㄸ\",\"ㄹ\",\"ㅁ\",\"ㅂ\",\"ㅃ\",\"ㅅ\",\"ㅆ\",\"ㅇ\",\"ㅈ\",\"ㅉ\",\"ㅊ\",\"ㅋ\",\"ㅌ\",\"ㅍ\",\"ㅎ\"];",
+            "class": "LanguageData"
+        },
+        {
+            "file": "dragmove\\data\\LanguageData.js",
+            "line": 42,
+            "description": "Korean vowel",
+            "itemtype": "property",
+            "name": "LanguageData.MEDIAL_JAMO_KOR",
+            "type": "{Array}",
+            "default": "[\"ㅏ\",\"ㅐ\",\"ㅑ\",\"ㅒ\",\"ㅓ\",\"ㅔ\",\"ㅕ\",\"ㅖ\",\"ㅗ\",\"ㅘ\",\"ㅙ\",\"ㅚ\",\"ㅛ\",\"ㅜ\",\"ㅝ\",\"ㅞ\",\"ㅟ\",\"ㅠ\",\"ㅡ\",\"ㅢ\",\"ㅣ\"];",
+            "class": "LanguageData"
+        },
+        {
+            "file": "dragmove\\data\\LanguageData.js",
+            "line": 51,
+            "description": "Korean final consonant",
+            "itemtype": "property",
+            "name": "LanguageData.FINAL_JAMO_KOR",
+            "type": "{Array}",
+            "default": "[\" \",\"ㄱ\",\"ㄲ\",\"ㄳ\",\"ㄴ\",\"ㄵ\",\"ㄶ\",\"ㄷ\",\"ㄹ\",\"ㄺ\",\"ㄻ\",\"ㄼ\",\"ㄽ\",\"ㄾ\",\"ㄿ\",\"ㅀ\",\"ㅁ\",\"ㅂ\",\"ㅄ\",\"ㅅ\",\"ㅆ\",\"ㅇ\",\"ㅈ\",\"ㅊ\",\"ㅋ\",\"ㅌ\",\"ㅍ\",\"ㅎ\"];",
+            "class": "LanguageData"
+        },
+        {
+            "file": "dragmove\\data\\LanguageData.js",
+            "line": 60,
+            "description": "English lower case",
+            "itemtype": "property",
+            "name": "LanguageData.LOWER_CASE_ENG",
+            "type": "{Array}",
+            "default": "[\"a\", \"b\", \"c\", \"d\", \"e\", \"f\", \"g\", \"h\", \"i\", \"j\", \"k\", \"l\", \"m\", \"n\", \"o\", \"p\", \"q\", \"r\", \"s\", \"t\", \"u\", \"v\", \"w\", \"x\", \"y\", \"z\"];",
+            "class": "LanguageData"
+        },
+        {
+            "file": "dragmove\\data\\LanguageData.js",
+            "line": 69,
+            "description": "English upper case",
+            "itemtype": "property",
+            "name": "LanguageData.UPPER_CASE_ENG",
+            "type": "{Array}",
+            "default": "[\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\", \"I\", \"J\", \"K\", \"L\", \"M\", \"N\", \"O\", \"P\", \"Q\", \"R\", \"S\", \"T\", \"U\", \"V\", \"W\", \"X\", \"Y\", \"Z\"];",
+            "class": "LanguageData"
+        },
+        {
+            "file": "dragmove\\debug\\Debug.js",
+            "line": 33,
+            "description": "equal to console.log() function",
+            "static": 1,
+            "itemtype": "method",
+            "name": "log",
+            "params": [
+                {
+                    "name": "object",
+                    "description": "to debug",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns object",
+                "type": "Object"
+            },
+            "example": [
+                "\n\tDebug.log(\"object to debug\");"
+            ],
+            "class": "Debug"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 182,
+            "description": "get totalFrame",
+            "itemtype": "method",
+            "name": "getTotalFrames",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 191,
+            "description": "get currentFrame",
+            "itemtype": "method",
+            "name": "getCurrentFrame",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 209,
+            "description": "destroy instance",
+            "itemtype": "method",
+            "name": "destroy",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 221,
+            "description": "initialize instance",
+            "itemtype": "method",
+            "name": "init",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 230,
+            "description": "set display property value opposite to \"none\" value",
+            "itemtype": "method",
+            "name": "setDisplayPropertyValue",
+            "params": [
+                {
+                    "name": "_displayValueStr",
+                    "description": "display property - set \"block\", \"inline\", \"inline-block\", \"inherit\". except \"none\" property",
+                    "type": "String"
+                }
+            ],
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 240,
+            "description": "set frameRate",
+            "itemtype": "method",
+            "name": "setFramerate",
+            "params": [
+                {
+                    "name": "_framerate",
+                    "description": "frameRate number",
+                    "type": "Number"
+                }
+            ],
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 250,
+            "description": "add frame DOM element",
+            "itemtype": "method",
+            "name": "addFrameNode",
+            "params": [
+                {
+                    "name": "_frameNode",
+                    "description": "DOM element to add",
+                    "type": "DOM"
+                }
+            ],
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 260,
+            "description": "gotoAndStop",
+            "itemtype": "method",
+            "name": "gotoAndStop",
+            "params": [
+                {
+                    "name": "_frame",
+                    "description": "frame number",
+                    "type": "Number"
+                }
+            ],
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 270,
+            "description": "nextFrame",
+            "itemtype": "method",
+            "name": "nextFrame",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 279,
+            "description": "prevFrame",
+            "itemtype": "method",
+            "name": "prevFrame",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 288,
+            "description": "gotoAndPlay",
+            "itemtype": "method",
+            "name": "gotoAndPlay",
+            "params": [
+                {
+                    "name": "_frame",
+                    "description": "frame number",
+                    "type": "Number"
+                }
+            ],
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 301,
+            "description": "play",
+            "itemtype": "method",
+            "name": "play",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 312,
+            "description": "stop",
+            "itemtype": "method",
+            "name": "stop",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 321,
+            "description": "rewind",
+            "itemtype": "method",
+            "name": "rewind",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\effect\\motion\\MovieClip.js",
+            "line": 332,
+            "description": "loop",
+            "itemtype": "method",
+            "name": "loop",
+            "class": "MovieClip"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 34,
+            "description": "Number type value들이 담긴 Array 내부의 값 중 value값과 가장 가까운 값을 찾아내고 그 index 값을 반환합니다.\n동일한 오차일 경우, 가장 뒤쪽에 존재하는 값의 위치를 반환합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getNearArrayPositionByValue",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "include number elements",
+                    "type": "Array"
+                },
+                {
+                    "name": "value",
+                    "description": "number value",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns int",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar array = [100,200,300,400,500];\n\tvar value = 180;\n\tconsole.log(ArrayUtil.getNearArrayPositionByValue(array , value));  //return 1 (200)\n\t\n\tvar array = [100,400,200,300,50];\n\tvar value = 40;\n\tconsole.log(ArrayUtil.getNearArrayPositionByValue(array , value));  //return 4 (50)\n\t\n\tvar array = [-100,-200,-300,100,500];\n\tvar value = -180;\n\tconsole.log(ArrayUtil.getNearArrayPositionByValue(array , value));  //return 1 (-200)"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 68,
+            "description": "Array 내부의 객체의 Number type 속성의 크기를 비교하여, 속성 크기의 순서대로 정렬된 Array를 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getArrangedArrByElementNumberTypeProperty",
+            "params": [
+                {
+                    "name": "_array",
+                    "description": "array include object elements",
+                    "type": "Array"
+                },
+                {
+                    "name": "_elementNumberTypePropertyNameStr",
+                    "description": "string value",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns array include object elements",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tvar elementArr = [{y:10}, {y:0}, {y:30}, {y:20}, {y:420}, {y:40}];\n\tvar arrangeArr = ArrayUtil.getArrangedArrByElementNumberTypeProperty(elementArr, \"y\");\n\t\n\tvar _element;\n\tfor(var i = 0; i < arrangeArr.length; ++i) {\n\t\t_element = arrangeArr[i];\n\t\tconsole.log(\"_element.y :\", _element.y);\n\t}"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 127,
+            "description": "Number type value들이 담긴 Array 내부의 값 중 가장 큰 값을 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getMaxNumberByArr",
+            "params": [
+                {
+                    "name": "_array",
+                    "description": "array include number elements",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar numArr = [10, 30, 20, 120, 55];\n\tconsole.log(ArrayUtil.getMaxNumberByArr(numArr)); //display 120"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 143,
+            "description": "Number type value들이 담긴 Array 내부의 값 중 가장 작은 값을 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getMinNumberByArr",
+            "params": [
+                {
+                    "name": "_array",
+                    "description": "array include number elements",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar numArr = [10, 30, 20, 120, 55];\n\tconsole.log(ArrayUtil.getMinNumberByArr(numArr)); //display 10"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 159,
+            "description": "Number type value들이 담긴 Array 내부의 값 중 가장 큰 값이 있는 위치값을 반환(같은 값이 존재할 경우, 가장 뒤쪽에 존재하는 값의 위치를 반환합니다.)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getMaxNumberPositionByArr",
+            "params": [
+                {
+                    "name": "_array",
+                    "description": "array include number elements",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar numArr = [10, 30, 20, 120, 55];\n\tconsole.log(ArrayUtil.getMaxNumberPositionByArr(numArr)); //가장 큰 값인 120의 위치인 3 이 반환"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 182,
+            "description": "Number type value들이 담긴 Array 내부의 값 중 가장 작은 값이 있는 위치값을 반환(같은 값이 존재할 경우, 가장 뒤쪽에 존재하는 값의 위치를 반환합니다.)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getMinNumberPositionByArr",
+            "params": [
+                {
+                    "name": "_array",
+                    "description": "array include number elements",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar numArr = [10, 30, 20, 120, 55];\n\tconsole.log(ArrayUtil.getMinNumberPositionByArr(numArr)); //가장 작은 값인 10의 위치인 0 이 반환"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 205,
+            "description": "Array 내부의 원소를 random하게 Mix합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "randomSort",
+            "params": [
+                {
+                    "name": "_array",
+                    "description": "array include number elements",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                "\n\tvar testArr = [10, 30, 20, 120, 55];\n\tArrayUtil.randomSort(testArr);\n\tconsole.log(testArr);"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 227,
+            "description": "Array.indexOf function. (IE can't call indexOf() method of Array Class.)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "indexOf",
+            "params": [
+                {
+                    "name": "$array",
+                    "description": "array",
+                    "type": "Array"
+                },
+                {
+                    "name": "$targetObj",
+                    "description": "object in array",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                "\n\tvar testArr = [10, 30, 20, 120, 55];\n\tconsole.log(ArrayUtil.indexOf(testArr, 10)); //return 0;"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 248,
+            "description": "Array 내부에 $targetObj가 존재하는지를 true/false로 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagExistEqualValue",
+            "params": [
+                {
+                    "name": "$array",
+                    "description": "array",
+                    "type": "Array"
+                },
+                {
+                    "name": "$targetObj",
+                    "description": "object in array",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 267,
+            "description": "Array 내부의 모든 값에 parseFloat 연산을 행하여 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getConvertValueToNumberTypeArr",
+            "params": [
+                {
+                    "name": "$array",
+                    "description": "array",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "returns array",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tvar testArr = [10px, 30px, 20px, 120px, 55px];\n\tconsole.log(ArrayUtil.getConvertValueToNumberTypeArr(testArr)); //return [10, 30, 20, 120, 55];"
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 286,
+            "description": "Array 내부의 모든 원소를 오름차순 정렬하여 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getAscendingSortedArr",
+            "params": [
+                {
+                    "name": "$array",
+                    "description": "array",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "returns array",
+                "type": "Array"
+            },
+            "example": [
+                ""
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 301,
+            "description": "Array 내부의 모든 원소를 내림차순 정렬하여 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getDescendingSortedArr",
+            "params": [
+                {
+                    "name": "$array",
+                    "description": "array",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "returns array",
+                "type": "Array"
+            },
+            "example": [
+                ""
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\ArrayUtil.js",
+            "line": 316,
+            "description": "Array 내부의 모든 원소를 새로운 배열에 담아 출력하되, 중복된 값이 존재하는 원소에 대해서는 1번만 담아 출력합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getPickOutOnlyValueArr",
+            "params": [
+                {
+                    "name": "$array",
+                    "description": "array",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "returns array",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tvar array = [1, 1, 1, 2, 3, 4, 4, 5]; 가 존재할 경우, 반환되는 array는 [1, 2, 3, 4, 5]의 값을 가집니다."
+            ],
+            "class": "ArrayUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 35,
+            "description": "get Location Anchor String",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getLocationAnchor",
+            "return": {
+                "description": "Returns empty String or String",
+                "type": "String"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 50,
+            "description": "get browser support Canvas",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagSupportCanvas",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 62,
+            "description": "open window",
+            "itemtype": "method",
+            "name": "openWindow",
+            "params": [
+                {
+                    "name": "_url",
+                    "description": "window url",
+                    "type": "String"
+                },
+                {
+                    "name": "_windowName",
+                    "description": "window name",
+                    "type": "String"
+                },
+                {
+                    "name": "_width",
+                    "description": "window width",
+                    "type": "Number"
+                },
+                {
+                    "name": "_height",
+                    "description": "window height",
+                    "type": "Number"
+                },
+                {
+                    "name": "_left",
+                    "description": "window left",
+                    "type": "Number"
+                },
+                {
+                    "name": "_top",
+                    "description": "window top",
+                    "type": "Number"
+                },
+                {
+                    "name": "_scrollbars",
+                    "description": "[extra=no] set scrollBar, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_resizable",
+                    "description": "[extra=no] set window resizable, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_status",
+                    "description": "[extra=no] display status, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_location",
+                    "description": "[extra=no] display location, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_toolbars",
+                    "description": "[extra=no] display toolbar, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_menubar",
+                    "description": "[extra=no] display menubar, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_fullscreen",
+                    "description": "[extra=no] set fullscreen, optional work. yes or no",
+                    "type": "String"
+                },
+                {
+                    "name": "_channelmode",
+                    "description": "[extra=no] set channelmode, optional work. yes or no",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns window object",
+                "type": "Window"
+            },
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 114,
+            "description": "get Browser window.screenX or window.screenLeft",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserX",
+            "return": {
+                "description": "Returns screenX or screenLeft",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 130,
+            "description": "get Browser window.screenY or window.screenTop",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserY",
+            "return": {
+                "description": "Returns screenY or screenTop",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 146,
+            "description": "get Browser width except menubar, toolbar, scrollbar and etc. (get Browser width includes scrollbar on IE)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserInnerWidth",
+            "return": {
+                "description": "Returns browser width except menubar, toolbar, scrollbar and etc.",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 170,
+            "description": "get Browser height except menubar, toolbar, scrollbar and etc. (get Browser height includes scrollbar on IE)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserInnerHeight",
+            "return": {
+                "description": "Returns browser height except menubar, toolbar, scrollbar and etc.",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 194,
+            "description": "get Document scrollWidth",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getDocumentScrollWidth",
+            "return": {
+                "description": "Returns document scrollWidth",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 210,
+            "description": "get Document scrollHeight",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getDocumentScrollHeight",
+            "return": {
+                "description": "Returns document scrollHeight",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 226,
+            "description": "get Document pageXOffset or scrollLeft",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserScrollX",
+            "return": {
+                "description": "Returns document pageXOffset or scrollLeft",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 244,
+            "description": "get Document pageYOffset or scrollTop",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserScrollY",
+            "return": {
+                "description": "Returns document pageYOffset or scrollTop",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 262,
+            "description": "get Document innerWidth or offsetWidth",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserOffsetWidth",
+            "return": {
+                "description": "Returns document innerWidth or offsetWidth",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 280,
+            "description": "get Document innerHeight or offsetHeight",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserOffsetHeight",
+            "return": {
+                "description": "Returns document innerHeight or offsetHeight",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 298,
+            "description": "get Browser is IE",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsIE",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 310,
+            "description": "get IE Browser version no. if browser is not IE, return -1.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBrowserIEVersion",
+            "return": {
+                "description": "Returns -1 or 6,7,8,9",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 329,
+            "description": "get browser is IE6",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIE6",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 342,
+            "description": "get browser is IE7",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIE7",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 355,
+            "description": "get browser is IE8",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIE8",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 368,
+            "description": "get browser is IE9",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIE9",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 381,
+            "description": "get browser is Firefox",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsFirefox",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 394,
+            "description": "get browser is Opera",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsOpera",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 406,
+            "description": "get browser is Chrome",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsChrome",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 418,
+            "description": "get browser is Safari",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsSafari",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 436,
+            "description": "get browser is Mobile browser",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsMobile",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 448,
+            "description": "get browser is MobileSafari",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagBrowserIsMobileSafari",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 460,
+            "description": "get Device is iPad",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagDeviceIsiPad",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 472,
+            "description": "get Device is iPhone",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagDeviceIsiPhone",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 484,
+            "description": "get Device is iPod",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagDeviceIsiPod",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\BrowserUtil.js",
+            "line": 496,
+            "description": "get Device is Android",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagDeviceIsAndroid",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "dragmove\\util\\CanvasUtil.js",
+            "line": 34,
+            "description": "return window x,y to canvas point",
+            "static": 1,
+            "itemtype": "method",
+            "name": "convertPointWindowToCanvas",
+            "params": [
+                {
+                    "name": "_canvas",
+                    "description": "",
+                    "type": "Canvas"
+                },
+                {
+                    "name": "_x",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "_y",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Object include x, y",
+                "type": "Object"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CanvasUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 34,
+            "description": "get object is available",
+            "static": 1,
+            "itemtype": "method",
+            "name": "available",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 49,
+            "description": "get object type is Array",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isArray",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 63,
+            "description": "get object type is Function",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isFunction",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 77,
+            "description": "get object type is String",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isString",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 91,
+            "description": "get object type is Number",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isNumber",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 105,
+            "description": "get object type is Boolean",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isBoolean",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CheckUtil.js",
+            "line": 119,
+            "description": "get object type is Object",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isObject",
+            "params": [
+                {
+                    "name": "$object",
+                    "description": "check target object",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CheckUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 34,
+            "description": "1 Minute to Sec unit - 60 Sec",
+            "itemtype": "property",
+            "name": "CookieUtil.MIN_TO_SEC",
+            "type": "{Number}",
+            "default": "60",
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 43,
+            "description": "1 Hour to Sec unit - 360 Sec",
+            "itemtype": "property",
+            "name": "CookieUtil.HOUR_TO_SEC",
+            "type": "{Number}",
+            "default": "86400 (60 * 60)",
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 52,
+            "description": "1 Day to Sec unit - 8640 Sec",
+            "itemtype": "property",
+            "name": "CookieUtil.DAY_TO_SEC",
+            "type": "{Number}",
+            "default": "86400 (60 * 60 * 24)",
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 61,
+            "description": "set cookie key, value, expire second",
+            "static": 1,
+            "itemtype": "method",
+            "name": "setCookie",
+            "params": [
+                {
+                    "name": "_key",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_value",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "_expireSecond",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 84,
+            "description": "get flag exist cookie value of key",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagExistCookie",
+            "params": [
+                {
+                    "name": "_key",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 107,
+            "description": "get cookie value of key",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getCookie",
+            "params": [
+                {
+                    "name": "_key",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string cookie value",
+                "type": "String"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\CookieUtil.js",
+            "line": 132,
+            "description": "remove cookie value of key",
+            "static": 1,
+            "itemtype": "method",
+            "name": "removeCookie",
+            "params": [
+                {
+                    "name": "_key",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "CookieUtil"
+        },
+        {
+            "file": "dragmove\\util\\InitUtil.js",
+            "line": 34,
+            "description": "IE7,8 png image의 opacity 변경시, 주변부의 black noise가 생기는 현상을 처리합니다.\n이 method를 사용하기 위해서는 반드시 jQuery Library와 blank.gif가 필요합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "setImageNodeForProtectIE78TransitionOpacityBug",
+            "params": [
+                {
+                    "name": "_imageContainerAttributeNameStr",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_blankGifPath",
+                    "description": "blank.gif image path",
+                    "type": "String"
+                },
+                {
+                    "name": "_scopeContainer",
+                    "description": "apply DOM container",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "InitUtil"
+        },
+        {
+            "file": "dragmove\\util\\InteractionUtil.js",
+            "line": 34,
+            "description": "전달받은 mouseEvent가 발생한 위치를 캡쳐하여, _functionGetReturnedMouseEventXYPosition Function에 x,y parameter 전달.\nJavascript Cookbook 161p 참고.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getMouseEventPosition",
+            "params": [
+                {
+                    "name": "_mouseEvent",
+                    "description": "native DOM MouseEvent",
+                    "type": "MouseEvent"
+                },
+                {
+                    "name": "_functionGetReturnedMouseEventXYPosition",
+                    "description": "number value",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "call function _functionGetReturnedMouseEventXYPosition",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "InteractionUtil"
+        },
+        {
+            "file": "dragmove\\util\\InteractionUtil.js",
+            "line": 69,
+            "description": "document mouse drag select 방지",
+            "static": 1,
+            "itemtype": "method",
+            "name": "preventDocumentMouseDragSelect",
+            "params": [
+                {
+                    "name": "_flag",
+                    "description": "",
+                    "type": "Boolean"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "InteractionUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 34,
+            "description": "밑변의 길이와 밑변의 예각을 이용하여, 직각 삼각형의 높이 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getHeightFromTriangleBaseLineAngle",
+            "params": [
+                {
+                    "name": "_baseLineWidth",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_degreeAngle",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar BASELINE_WIDTH = 100; //직각 삼각형의 밑변의 길이\n\tvar ANGLE = 30; //직각 삼각형의 빗변과 접하는 밑변의 예각\n\tvar triangleHeight = MathUtil.getHeightFromTriangleBaseLineAngle(BASELINE_WIDTH, ANGLE); \n\tconsole.log(triangleHeight);"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 53,
+            "description": "linePoint_1 과 linePoint_2를 지나는 직선 상의, somePoint가 직교하는 Point Object를 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getCrossPointBetweenTwoPointsLineAndSomePoint",
+            "params": [
+                {
+                    "name": "_somePoint",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "_linePoint_1",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "_linePoint_2",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns Object include x, y",
+                "type": "Object"
+            },
+            "example": [
+                "\n\tvar _linePoint_1 = {x:0, y:0};\n\tvar _linePoint_2 = {x:100, y:100};\n\tvar _somePoint = {x:50, y:100};\n\tvar _crossPoint = MathUtil.getCrossPointBetweenTwoPointsLineAndSomePoint(_somePoint, _linePoint_1, _linePoint_2);\n\tconsole.log(_crossPoint); // (0,0)좌표와 (100,100)좌표를 지나는 직선 상에서, (50,100)의 Point가 직교하는 위치인 (75, 75)의 위치를 반환합니다."
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 84,
+            "description": "radian value를 호도각 value로 변환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "radianToDegree",
+            "params": [
+                {
+                    "name": "radian",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _pi = Math.PI;\n\tconsole.log(MathUtil.radianToDegree(_pi)); //PI의 호도각 value인 180 출력"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 99,
+            "description": "호도각 value를 radian value로 변환 출력",
+            "static": 1,
+            "itemtype": "method",
+            "name": "degreeToRadian",
+            "params": [
+                {
+                    "name": "degree",
+                    "description": "",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _rotationValue = 180;\n\tconsole.log(MathUtil.degreeToRadian(_rotationValue)); //호도각 180도의 radian value인 3.141592653589793 출력"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 114,
+            "description": "두 point 사이의 거리 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getDistanceBetweenTwoPoints",
+            "params": [
+                {
+                    "name": "point1_x",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "point1_y",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "point2_x",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "point2_y",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _point_1 = {x:0, y:0};\n\tvar _point_2 = {x:100, y:100};\n\tconsole.log(MathUtil.getDistanceBetweenTwoPoints(_point_1.x, _point_1.y, _point_2.x, _point_2.y));"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 134,
+            "description": "두 point 사이의 거리를 백분율로 환산하여, 특정 percent에 해당하는 위치를 point로 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getPercentagePointBetweenTwoPoints",
+            "params": [
+                {
+                    "name": "point1_x",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "point1_y",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "point2_x",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "point2_y",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "percentage",
+                    "description": "0.0 ~ 1.0",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _point_1 = {x:0, y:0};\n\tvar _point_2 = {x:100, y:100};\n\tconsole.log(MathUtil.getDistanceBetweenTwoPoints(_point_1.x, _point_1.y, _point_2.x, _point_2.y)); //두 point 사이의 80 percent의 위치인 x=80, y=20 Point 반환"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 156,
+            "description": "특정 각도를 Flash System의 각도 단위인 -179 ~ 180 으로 변화하여 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getAngleBasedOnSystem",
+            "params": [
+                {
+                    "name": "_degree",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getAngleBasedOnSystem(710)); //-10 반환 (710도는 -10도로 변환)"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 172,
+            "description": "_standardPoint를 기준점으로, _targetPoint를 _degree만큼 회전시켰을 때의 point 위치를 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getAngleBasedOnSystem",
+            "params": [
+                {
+                    "name": "_standardPoint",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "_targetPoint",
+                    "description": "Object include x, y",
+                    "type": "Object"
+                },
+                {
+                    "name": "_degree",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns Object include x, y",
+                "type": "Object"
+            },
+            "example": [
+                "\n\tvar _axisPoint = {x:100, y:100};\n\tvar _targetRotatePoint = {x:200, y:100};\n\tconsole.log(MathUtil.getRotatedPointAroundStandardPoint(_axisPoint, _targetRotatePoint, 90));  \n\t//_standardPoint(100, 100)을 기준점으로 _targetPoint(200, 100)를 90도 회전시킨 point(100, 200) 반환"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 194,
+            "description": "특정 point({x: _standardPointX, y:_standardPointY} 형태의 Object)를 기준점으로, _radius value를 반지름으로 가지는 원 내부의 random한 Point를 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getRandomSurroundPoint",
+            "params": [
+                {
+                    "name": "_standardPointX",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_standardPointY",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_radius",
+                    "description": "number",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns Object include x, y",
+                "type": "Object"
+            },
+            "example": [
+                "\n\tvar _axisPoint = {x:100, y:100};\n\tconsole.log(MathUtil.getRandomSurroundPoint(_axisPoint.x, _axisPoint.y, 100)); //_axisPoint를 기준으로 100의 반지름을 가지는 원 내부의 random한 위치의 Point 반환"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 215,
+            "description": "최소값 int 이상, 최대값 int 이하의 random int value 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getRandomSurroundPoint",
+            "params": [
+                {
+                    "name": "_minValueInt",
+                    "description": "number int type",
+                    "type": "Number"
+                },
+                {
+                    "name": "_maxValueInt",
+                    "description": "number int type",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getRandomIntMinToMax(10, 15));"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 230,
+            "description": "최소 Float 이상, 최대 Float 미만의 random Float value 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getRandomFloatMinToMax",
+            "params": [
+                {
+                    "name": "_minValueFloat",
+                    "description": "number float type",
+                    "type": "Number"
+                },
+                {
+                    "name": "_maxValueFloat",
+                    "description": "number float type",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getRandomFloatMinToMax(10.5, 20.9));"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 245,
+            "description": "parameter float value의 양수 판별 여부 반환. (0은 양수로 간주합니다.)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagPositiveNumber",
+            "params": [
+                {
+                    "name": "_valueFloat",
+                    "description": "number float type",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getFlagPositiveNumber(15)); //return true"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 260,
+            "description": "1 또는 -1 int value을 random하게 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getRandomPositiveNegative",
+            "return": {
+                "description": "Returns 1 or -1",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getRandomPositiveNegative()); //return 1 or -1"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 275,
+            "description": "parameter로 전달되는 모든 float value들의 합을 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "sum",
+            "params": [
+                {
+                    "name": "_valueFloatArgs",
+                    "description": "float arguments",
+                    "type": "Arguments"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.sum(10, 20, 30, 40)); //10, 20, 30, 40의 합인 100 반환"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 293,
+            "description": "parameter로 전달되는 모든 float value들의 평균을 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "average",
+            "params": [
+                {
+                    "name": "_valueFloatArgs",
+                    "description": "float arguments",
+                    "type": "Arguments"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.average(10, 20, 30, 40)); //10, 20, 30, 40의 평균인 25 반환"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 311,
+            "description": "Math.Ceil(float value) 이하의 random Int 반환 (paramter float value가 0 이하일 경우는 float value 초과, 0 이하의 random Int 반환)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "randomCeilInt",
+            "params": [
+                {
+                    "name": "_valueFloat",
+                    "description": "number",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.randomCeilInt(10));"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 326,
+            "description": "float value를  Ceil 연산을 적용, 특정 10 단위 or 특정 소수점 단위로 변환하여 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "ceilUnit",
+            "params": [
+                {
+                    "name": "_valueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_unitInTheTens",
+                    "description": "number",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar testNumber = 12345.12345;\n\tconsole.log(MathUtil.ceilUnit(testNumber, 0.1)); //소수점 첫째 자리에서 ceil 연산. 12345.2\n\tconsole.log(MathUtil.ceilUnit(testNumber, 100)); //100 단위에서 ceil 연산. 12400"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 343,
+            "description": "float value를  round 연산을 적용, 특정 10 단위 or 특정 소수점 단위로 변환하여 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "roundUnit",
+            "params": [
+                {
+                    "name": "_valueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_unitInTheTens",
+                    "description": "number",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar testNumber = 12345.12345;\n\tconsole.log(MathUtil.roundUnit(testNumber, 0.1)); //소수점 첫째 자리에서 round 연산. 12345.1\n\tconsole.log(MathUtil.roundUnit(testNumber, 100)); //100 단위에서 round 연산. 12300"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 360,
+            "description": "float value를  floor 연산을 적용, 특정 10 단위 or 특정 소수점 단위로 변환하여 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "floorUnit",
+            "params": [
+                {
+                    "name": "_valueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_unitInTheTens",
+                    "description": "number",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar testNumber = 12345.12345;\n\tconsole.log(MathUtil.floorUnit(testNumber, 0.1)); //소수점 첫째 자리에서 round 연산. 12345.1\n\tconsole.log(MathUtil.floorUnit(testNumber, 100)); //100 단위에서 round 연산. 12300"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 377,
+            "description": "지정된 최소 ~ 최대값 사이의 특정 value를, 다른 최소 ~ 최대값 영역 사이의 value로 치환하여 출력.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getRemapValue",
+            "params": [
+                {
+                    "name": "_targetValueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_minValueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_maxValueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_remapMinValueFloat",
+                    "description": "number",
+                    "type": "Number"
+                },
+                {
+                    "name": "_remapMaxValueFloat",
+                    "description": "number",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getRemapValue(80, 0, 100, 1000, 1500)); //0 ~ 100 사이의 80은, 1000 ~ 1500 사이의 1400 으로 치환."
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 395,
+            "description": "int value를 나눌 수 있는 100 미만의 최소 소수 반환(100 미만의 소수로 나눌 수 없을 경우, -1 반환)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getDivisibleMinPrimeNumberUnderOneHundred",
+            "params": [
+                {
+                    "name": "_uintValue",
+                    "description": "number 0 or more",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns Number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getDivisibleMinPrimeNumberUnderOneHundred(153)); //153을 나눌 수 있는 최소 소수 3 출력\n\tconsole.log(MathUtil.getDivisibleMinPrimeNumberUnderOneHundred(211)); //211을 나눌 수 있는 100 미만의 소수가 존재하지 않으므로, -1 출력"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\MathUtil.js",
+            "line": 418,
+            "description": "int value의 짝수 여부 반환(0은 짝수로 간주)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagEvenInt",
+            "params": [
+                {
+                    "name": "_valueInt",
+                    "description": "number",
+                    "type": "Number"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                "\n\tconsole.log(MathUtil.getFlagEvenInt(-2)); // 짝수. true 반환\n\tconsole.log(MathUtil.getFlagEvenInt(135)); // 홀수. false 반환"
+            ],
+            "class": "MathUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 33,
+            "description": "최저 devicePixelRatio를 만족하는 device에서 high dpi image를 표기하기 위해\n<img> node의 src 속성을 가공한다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "replaceImageToHighDpiImage",
+            "params": [
+                {
+                    "name": "_min_devicePixelRatio",
+                    "description": "",
+                    "type": "Number"
+                },
+                {
+                    "name": "_targetClassNameStr",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_addStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                "\n\twhen min-device-pixel-ratio , replace example.png to example@2x.png.\n\t\n\t+ html\n\t<img src=\"img/cardIndex.png\" width=\"218\" height=\"392\" alt=\"\" class=\"replace2x\" />\n\t\n\t+ javascript\n\tvar minDevicePixelRatio = 2; //retianDisplay\n\tvar replaceTargetClassNameStr = \"replace2x\";\n\tvar replaceImageAddStr = \"@2x\"\n\tNodeUtil.replaceImageToHighDpiImage(minDevicePixelRatio, replaceTargetClassNameStr, replaceImageAddStr); //require set \"replace2x\" class to replace target high dpi image node."
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 72,
+            "description": "DOM Node 객체를 전달받아, 이 노드가 HTML 태그를 표현하는지 검사한다. 즉, 이 노드가 Element 객체인지 검사한다.\n트리를 순회하면서 만나는 총 Element 객체의 수를 반환한다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "countTags",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns uint",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 92,
+            "description": "DOM element에 css class가 적용되어 있는지 확인하여 true, false 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "hasClass",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                },
+                {
+                    "name": "_cssClassNameStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns uint",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 108,
+            "description": "DOM element에 css class 추가",
+            "static": 1,
+            "itemtype": "method",
+            "name": "addClass",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                },
+                {
+                    "name": "_cssClassNameStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 125,
+            "description": "DOM element의 css class 삭제",
+            "static": 1,
+            "itemtype": "method",
+            "name": "removeClass",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                },
+                {
+                    "name": "_cssClassNameStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 139,
+            "description": "DOM element의 removeChild 기능에 parentNode null 상황시 처리",
+            "static": 1,
+            "itemtype": "method",
+            "name": "removeChild",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 153,
+            "description": "DOM element 내부의 모든 DOM element를 removeChild",
+            "static": 1,
+            "itemtype": "method",
+            "name": "removeAllChildren",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                ""
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 167,
+            "description": "DOM element의 CSS Style property String 반환. (현재, backgroundPosition 속성 탐색시, IE7, IE8 오류 발생)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getElementStyle",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                },
+                {
+                    "name": "_cssCamelPropertyStr",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_cssHyphenPropertyStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\t_cssCamelPropertyStr : 카멜 표기법 style name\n\t_cssHyphenPropertyStr : 하이픈 표기법 style name\n\t\n\tvar _targetElement = document.getElementById(\"navigation\");\n\tvar backgroundPositionStr = NodeUtil.getElementStyle(_targetElement, \"backgroundPosition\", \"background-position\");\n\tconsole.log(\"backgroundPositionStr : \" + backgroundPositionStr);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 194,
+            "description": "DOM element의 inline css style 삭제",
+            "static": 1,
+            "itemtype": "method",
+            "name": "removeElementInlineStyle",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                "\n\t<div id=\"targetElement\" style=\"opacity:0.7;\"></div>\n\tvar _targetElement = document.getElementById(\"targetElement\");\n\tNodeUtil.removeElementInlineStyle(_targetElement);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 211,
+            "description": "DOM element의 document Global X 좌표 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getElementGlobalPositionX",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _targetElement = document.getElementById(\"container\");\n\tvar globalPosX = NodeUtil.getElementGlobalPositionX(_targetElement);\n\tconsole.log(globalPosX);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 238,
+            "description": "DOM element의 document Global Y 좌표 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getElementGlobalPositionY",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _targetElement = document.getElementById(\"container\");\n\tvar globalPosY = NodeUtil.getElementGlobalPositionY(_targetElement);\n\tconsole.log(globalPosY);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 265,
+            "description": "DOM element의 parentNode 내부 X 좌표 반환. Javascript나 CSS로 style을 지정하지 않은 element의 X 위치를 얻어야 할 경우, 사용.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getElementOffsetLeft",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _targetElement = document.getElementById(\"container\");\n\tvar posX = NodeUtil.getElementOffsetLeft(_targetElement);\n\tconsole.log(posX);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 281,
+            "description": "DOM element의 parentNode 내부 Y 좌표 반환. Javascript나 CSS로 style을 지정하지 않은 element의 Y 위치를 얻어야 할 경우, 사용.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getElementOffsetTop",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar _targetElement = document.getElementById(\"container\");\n\tvar posY = NodeUtil.getElementOffsetTop(_targetElement);\n\tconsole.log(posY);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 297,
+            "description": "HTML Document 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getDocumentBody",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns Body",
+                "type": "DOM"
+            },
+            "example": [
+                "\n\tvar _documentBody = NodeUtil.getDocumentBody();\n\t_documentBody.scrollTop = 100;"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 318,
+            "description": "DOM element의 모든 parentNode 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getParentNodeArr",
+            "params": [
+                {
+                    "name": "_elementNode",
+                    "description": "",
+                    "type": "DOM"
+                }
+            ],
+            "return": {
+                "description": "Returns array",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tvar _targetElement = document.getElementById(\"container\");\n\tvar parentNodeArr = NodeUtil.getParentNodeArr(_targetElement);\n\tconsole.log(parentNodeArr);"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 344,
+            "description": "외부 javascript를 현재 페이지에 추가. 해당 js file에 부여할 임의의 id 지정 필요",
+            "static": 1,
+            "itemtype": "method",
+            "name": "setExternalJavascriptFile",
+            "params": [
+                {
+                    "name": "$jsFileUrlStr",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "$jsFileIdStr",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "$jsFileLoadCompleteEventHandler",
+                    "description": "",
+                    "type": "Function"
+                },
+                {
+                    "name": "$scope",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                "\n\tvar externalJsUrlStr = \"./js/project/main.js\";\n\tvar externalJsFileId = \"main-js\"\n\tNodeUtil.setExternalJavascriptFile(externalJsUrlStr, externalJsFileId, completeLoadExternalJavascriptFile);\n\t\n\tfunction completeLoadExternalJavascriptFile() {\n\t\tconsole.log(\"external js file load complete\")\n\t}"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\NodeUtil.js",
+            "line": 382,
+            "description": "javascript text-overflow:ellipsis 구현. 반드시, 정의된 ellipsis, multiline css와 함께 사용해야 한다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "setCustomOverflowEllipsis",
+            "params": [
+                {
+                    "name": "$containers",
+                    "description": "",
+                    "type": "JQuery object array"
+                },
+                {
+                    "name": "ellipsisStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Void"
+            },
+            "example": [
+                "\n\t<!-- DOM -->\n\t<body>\n\t\t<!-- this is a one line ellipsis -->\n\t\t<div class=\"ellipsis\" style=\"width: 100px; border: 1px solid black; margin-bottom: 50px\">\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit\n\t\t</div>\n\t\t\n\t\t<!-- this is a multiline ellipsis -->\n\t\t<div class=\"ellipsis multiline\" style=\"width: 100px; height: 40px; border: 1px solid black; margin-bottom: 50px\">\n\t\t\tLorem ipsum dolor sit amet, consectetur adipisicing elit\n\t\t</div>\n\t</body>\n\t\n\t<!-- CSS -->\n\t.ellipsis {\n\t\twhite-space: nowrap;\n\t\toverflow: hidden;\n\t}\n\t.ellipsis.multiline {\n\t\twhite-space: normal;\n\t}\n\t\n\t<!-- JS -->\n\tNodeUtil.setCustomOverflowEllipsis($(\".ellipsis\"), \"...\");"
+            ],
+            "class": "NodeUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 34,
+            "description": "\"transform\" or \"transition\" String를 Browser에 따라 javascript 속성명으로 수정하여 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getPrefixedTransformTransitionPropertyStr",
+            "params": [
+                {
+                    "name": "_transitionOrTransformStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns prefixed string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar transformStr = StringUtil.getPrefixedTransformTransitionPropertyStr(\"transform\");\n\tconsole.log(transformStr);\n\t\n\tvar valueStr = \"rotateY(45deg)\";\n\t_divInstance.style[transformStr] = valueStr;\n\t"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 58,
+            "description": "파일의 확장자 string을 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFileExtension",
+            "params": [
+                {
+                    "name": "_fileURLStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns file extension string",
+                "type": "String"
+            },
+            "example": [
+                ""
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 74,
+            "description": "문장 내에 기본 영문자와 숫자, 기본 심볼 문자만이 존재하는지의 여부를 반환.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getFlagEnglishStr",
+            "params": [
+                {
+                    "name": "_string",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                "\n\tvar englishStr = \"dragmove!#$%&'\\\"()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\ ]^_`abcdefghijklmnopqrstuvwxyz{|}~\"\n\tconsole.log(StringUtil.getFlagEnglishStr(englishStr));\n\t\n\tvar koreanStr = \"김현석 dragmove\"\n\tconsole.log(StringUtil.getFlagEnglishStr(koreanStr));"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 105,
+            "description": "문장 내의 각 한글 character를 초,성,성으로 분해하여 담은 Array(character가 한글이 아닐 경우에는 Array에 바로 담습니다)들을 별도의 Array에 순차적으로 담아 2차원 배열(Array) 형태로 반환",
+            "static": 1,
+            "itemtype": "method",
+            "name": "breakSetenceStr",
+            "params": [
+                {
+                    "name": "_string",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns array include array",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tvar testStr = \"김현석 dragmove\";\n\tvar returnArr = StringUtil.breakSetenceStr(testStr);\n\tconsole.log(returnArr); //[[\"ㄱ\", \"기\", \"김\"], [\"ㅎ\", \"혀\", \"현\"], [\"ㅅ\", \"서\", \"석\"], [\" \"], [\"d\"], [\"r\"], [\"a\"], [\"g\"], [\"m\"], [\"o\"], [\"v\"], [\"e\"]]\n\t\n\tfor (var i=0, max=returnArr.length; i<max; ++i) {\n\t\tconsole.log(\"returnArr[i] :\", returnArr[i]);\n\t}"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 132,
+            "description": "한글 character를 초,중,종성으로 분해하여 Array에 담아 반환(character가 한글이 아닐 경우 Array에 담아 단순 반환)",
+            "static": 1,
+            "itemtype": "method",
+            "name": "breakCharacterStr",
+            "params": [
+                {
+                    "name": "_oneCharacterStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns array",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tlink - http://en.wikipedia.org/wiki/Korean_language_and_computers#Hangul_Syllables_Area\n\n\tvar testChaStr = \"껌\";\n\tconsole.log(StringUtil.breakCharacterStr(testChaStr)); //ㄲ, 꺼, 껌"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 205,
+            "description": "String 내의 특정 문자열을 변환하여 출력.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "replaceStr",
+            "params": [
+                {
+                    "name": "_targetStr",
+                    "description": "target string",
+                    "type": "String"
+                },
+                {
+                    "name": "_findStr",
+                    "description": "find string",
+                    "type": "String"
+                },
+                {
+                    "name": "_changeStr",
+                    "description": "change string",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar testStr = \"     test입니다.     test.\";\n\tconsole.log(StringUtil.replaceStr(testStr, \"tes\", \"nex\"));"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 222,
+            "description": "String 내의 모든 공백 문자열 삭제",
+            "static": 1,
+            "itemtype": "method",
+            "name": "removeWhiteSpaceStr",
+            "params": [
+                {
+                    "name": "_targetStr",
+                    "description": "target string",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar testStr = \"      test      입     니다.     \";\n\tconsole.log(StringUtil.removeWhiteSpaceStr(testStr));"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 237,
+            "description": "String의 length가 특정한 숫자보다 길 경우, String을 특정한 숫자까지만 표기. String의 마지막 글자 이후 _cutAddStr String의 추가 가능",
+            "static": 1,
+            "itemtype": "method",
+            "name": "cutStrByIndex",
+            "params": [
+                {
+                    "name": "_str",
+                    "description": "target string",
+                    "type": "String"
+                },
+                {
+                    "name": "_cutStringIndex",
+                    "description": "cut string index",
+                    "type": "Number"
+                },
+                {
+                    "name": "_cutAddStr",
+                    "description": "add string",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tconsole.log(StringUtil.cutStrByIndex(\"dragmove\", 3, \"_javascript\")); //dra_javascript"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 255,
+            "description": "int type param value를 ','를 이용한 금액 표기 형태로 변경 출력",
+            "static": 1,
+            "itemtype": "method",
+            "name": "numberToPriceStr",
+            "params": [
+                {
+                    "name": "_intTypeValue",
+                    "description": "int type value",
+                    "type": "Number"
+                },
+                {
+                    "name": "_addStr",
+                    "description": "add string",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar cost = 300000000000000000;\n\tconsole.log(StringUtil.numberToPriceStr(cost)); //300,000,000,000,000,000"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 278,
+            "description": "문자열 좌측 부분의 공백 문자 제거",
+            "static": 1,
+            "itemtype": "method",
+            "name": "leftTrim",
+            "params": [
+                {
+                    "name": "_str",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar trimTargetStr = \"      dragmove      javascript      \";\n\tconsole.log(StringUtil.leftTrim(trimTargetStr)); //dragmove javascript    "
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 293,
+            "description": "문자열 좌측 부분의 공백 문자 제거",
+            "static": 1,
+            "itemtype": "method",
+            "name": "rightTrim",
+            "params": [
+                {
+                    "name": "_str",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar trimTargetStr = \"      dragmove      javascript      \";\n\tconsole.log(StringUtil.rightTrim(trimTargetStr)); //      dragmove      javascript"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 308,
+            "description": "문자열 좌,우측의 모든 공백 문자 제거",
+            "static": 1,
+            "itemtype": "method",
+            "name": "trim",
+            "params": [
+                {
+                    "name": "_str",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tvar trimTargetStr = \"      dragmove      javascript      \";\n\tconsole.log(StringUtil.trim(trimTargetStr)); //dragmove      javascript"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 323,
+            "description": "문자열의 이메일 유효성 검사",
+            "static": 1,
+            "itemtype": "method",
+            "name": "checkEmail",
+            "params": [
+                {
+                    "name": "_str",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns string",
+                "type": "String"
+            },
+            "example": [
+                "\n\tconsole.log(StringUtil.checkEmail(_value)); //_str parameter가 유효한 e-mail 주소 String일 경우, true 반환"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 366,
+            "description": "문자열의 byte를 반환합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getBytes",
+            "params": [
+                {
+                    "name": "$str",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns number",
+                "type": "Number"
+            },
+            "example": [
+                "\n\tvar testStr = \"1234567890\"\n\tconsole.log(\"1234567890 : \", StringUtil.getBytes(testStr));\n\t\n\ttestStr = \"dragmove\"\n\tconsole.log(\"dragmove : \", StringUtil.getBytes(testStr));\n\t\n\ttestStr = \"김현석\"\n\tconsole.log(\"김현석 : \", StringUtil.getBytes(testStr));"
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\StringUtil.js",
+            "line": 392,
+            "description": "문자열의 byte를 반환합니다.\n예를 들어, dog 라는 값은 cat 보다 큽니다. \n이것은 d가 c 보다 알파벳 상에서 더 뒤에 있기 때문입니다.\n이는 한글을 비교할 때도 마찬가지입니다. 예를 들어, '다'는 '라'보다 작습니다.\n같은 문자열을 대소문자로만 구분하는 경우에는 알파벳 순으로 대문자가 소문자보다 큽니다.\n\n0 : $compareTargetStr과 $otherStr이 100% 일치합니다.\n1 : $compareTargetStr가 문자적으로 더 크다는 의미\n-1 : $otherStr가 문자적으로 더 크다는 의미",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getCompareSortOrder",
+            "params": [
+                {
+                    "name": "$compareTargetStr",
+                    "description": "compare target string",
+                    "type": "String"
+                },
+                {
+                    "name": "$otherStr",
+                    "description": "other string",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns -1 or 0 or 1",
+                "type": "Number"
+            },
+            "example": [
+                ""
+            ],
+            "class": "StringUtil"
+        },
+        {
+            "file": "dragmove\\util\\XmlUtil.js",
+            "line": 34,
+            "description": "xml2json.js로 xml을 object type으로 parsing한 object 내부의 특정 Object인 _xml2jsonDataObj내에서\n_attributeNameStr의 속성명을 가진 노드를 전부 Array에 담아 반환합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getNodesValueArrayByAttributeName",
+            "params": [
+                {
+                    "name": "_xml2jsonDataObj",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "_attributeNameStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns array",
+                "type": "Array"
+            },
+            "example": [
+                ""
+            ],
+            "class": "XmlUtil"
+        },
+        {
+            "file": "dragmove\\util\\XmlUtil.js",
+            "line": 65,
+            "description": "xml2json.js로 xml을 object type으로 parsing한 object 내부의 특정 Object인 _xml2jsonDataObj내에서\n_attributeNameStr의 속성명을 가진 노드가 _attributeValueStr 값을 가졌다면, 이를 모두 Array에 담아 반환합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getNodesArrayByAttribute",
+            "params": [
+                {
+                    "name": "_xml2jsonDataObj",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "_attributeNameStr",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "_attributeValueStr",
+                    "description": "",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns array",
+                "type": "Array"
+            },
+            "example": [
+                ""
+            ],
+            "class": "XmlUtil"
+        },
+        {
+            "file": "dragmove\\util\\XmlUtil.js",
+            "line": 95,
+            "description": "xml 내의 특정한 속성명과 속성값을 가지는 Node들을 담은 Array 반환.\nxml2json.js로 xml을 object type으로 parsing한 object 내부의 특정 Object인 _xml2jsonDataObjArr 내에서\n_attributeObj에 설정된 복수의 속성명과 속성값에 일치하는 object data가 존재할 경우,\n이를 모두 Array에 담아 반환합니다.",
+            "static": 1,
+            "itemtype": "method",
+            "name": "getNodesArrayByAttributeObj",
+            "params": [
+                {
+                    "name": "_xml2jsonDataObjArr",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "_attributeObj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "Returns array",
+                "type": "Array"
+            },
+            "example": [
+                "\n\tvar listObjArr = XmlUtil.getNodesArrayByAttributeObj(jsonData.data.list, {voltage:2, ampere:1}); //refer to SK INNOVATION SIMULATION project"
+            ],
+            "class": "XmlUtil"
+        }
+    ],
+    "warnings": []
+}

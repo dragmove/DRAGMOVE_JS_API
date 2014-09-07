@@ -1,0 +1,24 @@
+{
+  "name": "DRAGMOVE_JS_API",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "dragmove",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.23",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5",
+    "karma-requirejs": "^0.2.2",
+    "requirejs": "^2.1.14"
+  }
+}

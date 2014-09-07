@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>dragmove\util\StringUtil.js</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.8.0pr2&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.8.0pr2&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="..&#x2F;assets/css/logo.png" title=""></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/ArrayUtil.html">ArrayUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/BrowserUtil.html">BrowserUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/CanvasUtil.html">CanvasUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/CheckUtil.html">CheckUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/ClipCircle.html">ClipCircle</a></li>
+            
+                <li><a href="..&#x2F;classes/ControlUtil.html">ControlUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/ControlUtil.SimpleTimer.html">ControlUtil.SimpleTimer</a></li>
+            
+                <li><a href="..&#x2F;classes/CookieUtil.html">CookieUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/DateData.html">DateData</a></li>
+            
+                <li><a href="..&#x2F;classes/Debug.html">Debug</a></li>
+            
+                <li><a href="..&#x2F;classes/EffectUtil.html">EffectUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/EffectUtil.EntranceExpansion.html">EffectUtil.EntranceExpansion</a></li>
+            
+                <li><a href="..&#x2F;classes/EffectUtil.TypeWriter.html">EffectUtil.TypeWriter</a></li>
+            
+                <li><a href="..&#x2F;classes/ImageLoader.html">ImageLoader</a></li>
+            
+                <li><a href="..&#x2F;classes/InitUtil.html">InitUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/InteractionUtil.html">InteractionUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/LanguageData.html">LanguageData</a></li>
+            
+                <li><a href="..&#x2F;classes/MathUtil.html">MathUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/MovieClip.html">MovieClip</a></li>
+            
+                <li><a href="..&#x2F;classes/NodeUtil.html">NodeUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/StringUtil.html">StringUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/XmlUtil.html">XmlUtil</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: dragmove\util\StringUtil.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x2F;*
+ * The MIT License
+ *
+ * Copyright (c) 2013 dragmove
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the &quot;Software&quot;), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and&#x2F;or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *&#x2F;
+
+define(function(require, exports, module) {
+	&#x2F;**
+	 * StringUtil
+	 * @class StringUtil
+	 * @constructor
+	 *&#x2F;
+
+	var StringUtil = exports;
+	
+	&#x2F;**
+	 * &quot;transform&quot; or &quot;transition&quot; String를 Browser에 따라 javascript 속성명으로 수정하여 반환.
+	 *
+	 * @static
+	 * @method getPrefixedTransformTransitionPropertyStr
+	 * @param {String} _transitionOrTransformStr
+	 * @return {String} Returns prefixed string
+	 * @example
+	var transformStr = StringUtil.getPrefixedTransformTransitionPropertyStr(&quot;transform&quot;);
+	console.log(transformStr);
+	
+	var valueStr = &quot;rotateY(45deg)&quot;;
+	_divInstance.style[transformStr] = valueStr;
+	
+	 *&#x2F;
+	StringUtil.getPrefixedTransformTransitionPropertyStr = function(_transitionOrTransformStr) {
+		var i, s = document.createElement(&#x27;p&#x27;).style, v = [&#x27;ms&#x27;,&#x27;O&#x27;,&#x27;Moz&#x27;,&#x27;Webkit&#x27;];
+	    if( s[_transitionOrTransformStr] == &#x27;&#x27; ) return _transitionOrTransformStr;
+	    _transitionOrTransformStr = _transitionOrTransformStr.charAt(0).toUpperCase() + _transitionOrTransformStr.slice(1);
+	    for( i = v.length; i--; )
+	        if( s[v[i] + _transitionOrTransformStr] == &#x27;&#x27; )
+	            return (v[i] + _transitionOrTransformStr);
+	}
+	
+	&#x2F;**
+	 * 파일의 확장자 string을 반환.
+	 *
+	 * @static
+	 * @method getFileExtension
+	 * @param {String} _fileURLStr
+	 * @return {String} Returns file extension string
+	 * @example
+	 *&#x2F;
+	StringUtil.getFileExtension = function(_fileURLStr) {
+		var searchStr = _fileURLStr.indexOf(&quot;?&quot;) &gt; -1 ? _fileURLStr.substring(0, _fileURLStr.indexOf(&quot;?&quot;)) : _fileURLStr;
+		var finalPartStr = searchStr.substring(searchStr.lastIndexOf(&quot;&#x2F;&quot;));
+		var fileExtensionStr = finalPartStr.substring(finalPartStr.lastIndexOf(&quot;.&quot;) + 1).toLowerCase();
+		return fileExtensionStr;
+	};
+	
+	&#x2F;**
+	 * 문장 내에 기본 영문자와 숫자, 기본 심볼 문자만이 존재하는지의 여부를 반환.
+	 *
+	 * @static
+	 * @method getFlagEnglishStr
+	 * @param {String} _string
+	 * @return {Boolean} Returns true or false
+	 * @example
+	var englishStr = &quot;dragmove!#$%&amp;&#x27;\&quot;()*+,-.&#x2F;0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\ ]^_&#x60;abcdefghijklmnopqrstuvwxyz{|}~&quot;
+	console.log(StringUtil.getFlagEnglishStr(englishStr));
+	
+	var koreanStr = &quot;김현석 dragmove&quot;
+	console.log(StringUtil.getFlagEnglishStr(koreanStr));
+	 *&#x2F;
+	StringUtil.getFlagEnglishStr = function(_string) {
+		var flag = true;
+		var splitArr = _string.split(&quot;&quot;);
+		var strArr = [];
+		var _str;
+		var unicode;
+		for(var i=0, max=splitArr.length; i&lt;max; ++i) {
+			_str = splitArr[i];
+			unicode = _str.charCodeAt();
+			if(unicode &lt; 32 || unicode &gt; 126) { &#x2F;&#x2F; !&quot;#$%&amp;&#x27;()*+,-.&#x2F;0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_&#x60;abcdefghijklmnopqrstuvwxyz{|}~
+				flag = false;
+				break;
+			} 
+		}
+		return flag;
+	};
+	
+	&#x2F;**
+	 * 문장 내의 각 한글 character를 초,성,성으로 분해하여 담은 Array(character가 한글이 아닐 경우에는 Array에 바로 담습니다)들을 별도의 Array에 순차적으로 담아 2차원 배열(Array) 형태로 반환
+	 *
+	 * @static
+	 * @method breakSetenceStr
+	 * @param {String} _string
+	 * @return {Array} Returns array include array
+	 * @example
+	var testStr = &quot;김현석 dragmove&quot;;
+	var returnArr = StringUtil.breakSetenceStr(testStr);
+	console.log(returnArr); &#x2F;&#x2F;[[&quot;ㄱ&quot;, &quot;기&quot;, &quot;김&quot;], [&quot;ㅎ&quot;, &quot;혀&quot;, &quot;현&quot;], [&quot;ㅅ&quot;, &quot;서&quot;, &quot;석&quot;], [&quot; &quot;], [&quot;d&quot;], [&quot;r&quot;], [&quot;a&quot;], [&quot;g&quot;], [&quot;m&quot;], [&quot;o&quot;], [&quot;v&quot;], [&quot;e&quot;]]
+	
+	for (var i=0, max=returnArr.length; i&lt;max; ++i) {
+		console.log(&quot;returnArr[i] :&quot;, returnArr[i]);
+	}
+	 *&#x2F;
+	StringUtil.breakSetenceStr = function(_string) {
+		var splitArr = _string.split(&quot;&quot;);
+		var strArr = [];
+		var _str;
+		for(var i=0, max=splitArr.length; i&lt;max; ++i) {
+			_str = splitArr[i];
+			strArr.push(StringUtil.breakCharacterStr(_str));
+		}
+		return strArr;
+	};
+	
+	&#x2F;**
+	 * 한글 character를 초,중,종성으로 분해하여 Array에 담아 반환(character가 한글이 아닐 경우 Array에 담아 단순 반환)
+	 *
+	 * @static
+	 * @method breakCharacterStr
+	 * @param {String} _oneCharacterStr
+	 * @return {Array} Returns array
+	 * @example
+	link - http:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Korean_language_and_computers#Hangul_Syllables_Area
+
+	var testChaStr = &quot;껌&quot;;
+	console.log(StringUtil.breakCharacterStr(testChaStr)); &#x2F;&#x2F;ㄲ, 꺼, 껌
+	 *&#x2F;
+	StringUtil.breakCharacterStr = function(_oneCharacterStr) {
+		var valueArr = [];
+		var unicode = _oneCharacterStr.charCodeAt();
+		var initialValue; &#x2F;&#x2F;Initial Jamo Number
+		var MedialValue; &#x2F;&#x2F;Initial Jamo Number + Medial Jamo Number
+	
+		if(unicode &gt;= 44032 &amp;&amp; unicode &lt;= 55203) { &#x2F;&#x2F;hangul (Unicode 44032 ~ 55203) 
+			initialValue = Math.floor((unicode - 44032) &#x2F; 588); &#x2F;&#x2F;Initial Jamo index
+			valueArr.push(String(dragmove.data.LanguageData.INITIAL_JAMO_KOR[initialValue]));
+			
+			var initialJamoUnicode = initialValue * 588 + 44032; &#x2F;&#x2F; Initial Jamo + ㅏ(Medial Jamo[0]) + no Final Jamo
+			MedialValue = Math.floor( (unicode - initialJamoUnicode) &#x2F; 28 ) * 28 + initialJamoUnicode;
+			
+			var medialJamoUnicodeIndex = Math.floor( (unicode - initialJamoUnicode) &#x2F; 28 );
+			
+			&#x2F;&#x2F;ㅘ, ㅙ, ㅚ (9, 10, 11) -&gt; add ㅗ (8)
+			if(medialJamoUnicodeIndex &gt;= 9 &amp;&amp; medialJamoUnicodeIndex &lt;= 11) valueArr.push(String.fromCharCode(initialJamoUnicode + 8 * 28)); &#x2F;&#x2F;valueArr.push(dragmove.data.LanguageData.MEDIAL_JAMO_KOR[8]);
+			
+			&#x2F;&#x2F;ㅝ, ㅞ, ㅟ (14, 15, 16) -&gt; add ㅜ(13)
+			if(medialJamoUnicodeIndex &gt;= 14 &amp;&amp; medialJamoUnicodeIndex &lt;= 16) valueArr.push(String.fromCharCode(initialJamoUnicode + 13 * 28));&#x2F;&#x2F;valueArr.push(dragmove.data.LanguageData.MEDIAL_JAMO_KOR[13]);
+			
+			&#x2F;&#x2F;ㅢ (19) -&gt; add ㅡ(18)
+			if(medialJamoUnicodeIndex == 19) valueArr.push(String.fromCharCode(initialJamoUnicode + 18 * 28)); &#x2F;&#x2F;valueArr.push(dragmove.data.LanguageData.MEDIAL_JAMO_KOR[18]);
+			
+			valueArr.push(String.fromCharCode(MedialValue));
+			
+			&#x2F;&#x2F;add Final Jamo
+			var finalJamoUnicodeIndex = unicode - MedialValue; &#x2F;&#x2F;int
+			if(finalJamoUnicodeIndex != 0) {
+				&#x2F;&#x2F;ㄲ, ㄳ (2, 3) -&gt; add ㄱ(1)
+				if(finalJamoUnicodeIndex &gt;= 2 &amp;&amp; finalJamoUnicodeIndex &lt;= 3) valueArr.push(String.fromCharCode(MedialValue + 1));
+				
+				&#x2F;&#x2F;ㄵ, ㄶ(5, 6) -&gt; add ㄴ(4)
+				if(finalJamoUnicodeIndex &gt;= 5 &amp;&amp; finalJamoUnicodeIndex &lt;= 6) valueArr.push(String.fromCharCode(MedialValue + 4));
+				
+				&#x2F;&#x2F;ㄺ, ㄻ, ㄼ, ㄽ, ㄾ, ㄿ, ㅀ (9, 10, 11, 12, 13, 14, 15) -&gt; add ㄹ(8)
+				if(finalJamoUnicodeIndex &gt;= 9 &amp;&amp; finalJamoUnicodeIndex &lt;= 15) valueArr.push(String.fromCharCode(MedialValue + 8));
+				
+				&#x2F;&#x2F;ㅄ (18) -&gt; add ㅂ(17)
+				if(finalJamoUnicodeIndex == 18) valueArr.push(String.fromCharCode(MedialValue + 17));
+	
+				&#x2F;&#x2F;ㅆ (20) -&gt; add ㅅ(19)
+				if(finalJamoUnicodeIndex == 20) valueArr.push(String.fromCharCode(MedialValue + 19));
+				
+				valueArr.push(_oneCharacterStr);
+			}
+		}else if(unicode &gt;= 32 &amp;&amp; unicode &lt;= 126) { &#x2F;&#x2F; !&quot;#$%&amp;&#x27;()*+,-.&#x2F;0123456789:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_&#x60;abcdefghijklmnopqrstuvwxyz{|}~
+			if(unicode == 32){ &#x2F;&#x2F;&quot; &quot;
+				valueArr.push(&quot; &quot;);
+			}else if(unicode == 92){ &#x2F;&#x2F;\
+				valueArr.push(String.fromCharCode(unicode));
+			}else{
+				valueArr.push(String.fromCharCode(unicode));
+			}
+		}else{
+			valueArr.push(String.fromCharCode(unicode));
+		}
+		return valueArr;
+	};
+	
+	&#x2F;**
+	 * String 내의 특정 문자열을 변환하여 출력.
+	 *
+	 * @static
+	 * @method replaceStr
+	 * @param {String} _targetStr target string
+	 * @param {String} _findStr find string
+	 * @param {String} _changeStr change string
+	 * @return {String} Returns string
+	 * @example
+	var testStr = &quot;     test입니다.     test.&quot;;
+	console.log(StringUtil.replaceStr(testStr, &quot;tes&quot;, &quot;nex&quot;));
+	 *&#x2F;
+	StringUtil.replaceStr = function(_targetStr, _findStr, _changeStr) {
+		return _targetStr.split(_findStr).join(_changeStr);
+	};
+	
+	&#x2F;**
+	 * String 내의 모든 공백 문자열 삭제
+	 *
+	 * @static
+	 * @method removeWhiteSpaceStr
+	 * @param {String} _targetStr target string
+	 * @return {String} Returns string
+	 * @example
+	var testStr = &quot;      test      입     니다.     &quot;;
+	console.log(StringUtil.removeWhiteSpaceStr(testStr));
+	 *&#x2F;
+	StringUtil.removeWhiteSpaceStr = function(_targetStr) {
+		return _targetStr.split(&quot; &quot;).join(&quot;&quot;);
+	};
+	
+	&#x2F;**
+	 * String의 length가 특정한 숫자보다 길 경우, String을 특정한 숫자까지만 표기. String의 마지막 글자 이후 _cutAddStr String의 추가 가능
+	 *
+	 * @static
+	 * @method cutStrByIndex
+	 * @param {String} _str target string
+	 * @param {Number} _cutStringIndex cut string index
+	 * @param {String} _cutAddStr add string
+	 * @return {String} Returns string
+	 * @example
+	console.log(StringUtil.cutStrByIndex(&quot;dragmove&quot;, 3, &quot;_javascript&quot;)); &#x2F;&#x2F;dra_javascript
+	 *&#x2F;
+	StringUtil.cutStrByIndex = function(_str, _cutStringIndex, _cutAddStr) {
+		var tempStr = _str;
+		if (_str.length &gt; _cutStringIndex) tempStr = _str.substr(0, _cutStringIndex) + _cutAddStr;
+		return tempStr;
+	};
+	
+	&#x2F;**
+	 * int type param value를 &#x27;,&#x27;를 이용한 금액 표기 형태로 변경 출력
+	 *
+	 * @static
+	 * @method numberToPriceStr
+	 * @param {Number} _intTypeValue int type value
+	 * @param {String} _addStr add string
+	 * @return {String} Returns string
+	 * @example
+	var cost = 300000000000000000;
+	console.log(StringUtil.numberToPriceStr(cost)); &#x2F;&#x2F;300,000,000,000,000,000
+	 *&#x2F;
+	StringUtil.numberToPriceStr = function(_intTypeValue, _addStr) {
+		var addStr = &quot;,&quot;;
+		if(_addStr != undefined) addStr = _addStr;
+	
+		var arr = String(_intTypeValue).split(&quot;&quot;); 
+		var tlen = arr.length; 
+		var clen = Math.ceil(tlen &#x2F; 3); 
+		for (var i=1; i&lt;clen; i++) arr.splice(tlen - i * 3, 0, addStr); 
+		return arr.join(&quot;&quot;);
+	};
+	
+	&#x2F;**
+	 * 문자열 좌측 부분의 공백 문자 제거
+	 *
+	 * @static
+	 * @method leftTrim
+	 * @param {String} _str
+	 * @return {String} Returns string
+	 * @example
+	var trimTargetStr = &quot;      dragmove      javascript      &quot;;
+	console.log(StringUtil.leftTrim(trimTargetStr)); &#x2F;&#x2F;dragmove javascript    
+	 *&#x2F;
+	StringUtil.leftTrim = function(_str) {
+		return _str.replace(&#x2F;^\s+&#x2F;, &quot;&quot;);
+	};
+	
+	&#x2F;**
+	 * 문자열 좌측 부분의 공백 문자 제거
+	 *
+	 * @static
+	 * @method rightTrim
+	 * @param {String} _str
+	 * @return {String} Returns string
+	 * @example
+	var trimTargetStr = &quot;      dragmove      javascript      &quot;;
+	console.log(StringUtil.rightTrim(trimTargetStr)); &#x2F;&#x2F;      dragmove      javascript
+	 *&#x2F;
+	StringUtil.rightTrim = function(_str) {
+		return _str.replace(&#x2F;\s+$&#x2F;, &quot;&quot;);
+	};
+	
+	&#x2F;**
+	 * 문자열 좌,우측의 모든 공백 문자 제거
+	 *
+	 * @static
+	 * @method trim
+	 * @param {String} _str
+	 * @return {String} Returns string
+	 * @example
+	var trimTargetStr = &quot;      dragmove      javascript      &quot;;
+	console.log(StringUtil.trim(trimTargetStr)); &#x2F;&#x2F;dragmove      javascript
+	 *&#x2F;
+	StringUtil.trim = function(_str) {
+		return _str.replace(&#x2F;^\s+&#x2F;, &quot;&quot;).replace(&#x2F;\s+$&#x2F;, &quot;&quot;);
+	};
+	
+	&#x2F;**
+	 * 문자열의 이메일 유효성 검사
+	 *
+	 * @static
+	 * @method checkEmail
+	 * @param {String} _str
+	 * @return {String} Returns string
+	 * @example
+	console.log(StringUtil.checkEmail(_value)); &#x2F;&#x2F;_str parameter가 유효한 e-mail 주소 String일 경우, true 반환
+	 *&#x2F;
+	StringUtil.checkEmail = function(_str) {
+		if(_str.indexOf(&quot;@&quot;) &lt; 1){
+			&#x2F;&#x2F;console.log(&quot;[StringUtil.checkEmail] &#x27;@&#x27;문자가 빠지거나 맨 처음에 위치할 수 없습니다.&quot;);
+			return false;
+		}
+		if(_str.indexOf(&quot;.&quot;) &lt; -1){
+			&#x2F;&#x2F;console.log(&quot;[StringUtil.checkEmail] &#x27;.&#x27;문자가 빠지거나 맨 처음에 위치할 수 없습니다.&quot;);
+			return false;
+		}
+		if(_str.indexOf(&quot;@&quot;) != _str.lastIndexOf(&quot;@&quot;)){
+			&#x2F;&#x2F;console.log(&quot;[StringUtil.checkEmail] &#x27;@&#x27;는 두 개이상 들어갈 수 없습니다.&quot;);
+			return false;
+		}
+		if(_str.indexOf(&quot;.&quot;) - _str.indexOf(&quot;@&quot;) &lt; 2){
+			&#x2F;&#x2F;console.log(&quot;[StringUtil.checkEmail] &#x27;.&#x27;이 &#x27;@&#x27;보다 먼저 위치할 수 없으며 &#x27;@&#x27; 바로 다음에 &#x27;.&#x27;이 위치할 수 없습니다.&quot;);
+			return false;
+		}
+		if(_str.lastIndexOf(&quot;.&quot;) == _str.length-1){
+			&#x2F;&#x2F;console.log(&quot;[StringUtil.checkEmail] 마지막에 &#x27;.&#x27;이 위치할 수 없습니다.&quot;);
+			return false;
+		}
+		
+		var lastStrLength = _str.substr(_str.lastIndexOf(&quot;.&quot;)+1).length;
+		if(lastStrLength &lt; 2 || lastStrLength &gt; 4){
+			&#x2F;&#x2F;console.log(&quot;[StringUtil.checkEmail] 도메인명의 마지막 문자는 영문 2~4개여야 합니다.&quot;);
+			return false;
+		}
+		return true;
+		
+		&#x2F;&#x2F;other way
+		&#x2F;&#x2F;return !_str || &#x2F;^[a-z0-9_+.-]+\@([a-z0-9-]+\.)+[a-z0-9]{2,4}$&#x2F;i.test(_str);
+	};
+	
+	&#x2F;**
+	 * 문자열의 byte를 반환합니다.
+	 *
+	 * @static
+	 * @method getBytes
+	 * @param {String} $str
+	 * @return {Number} Returns number
+	 * @example
+	var testStr = &quot;1234567890&quot;
+	console.log(&quot;1234567890 : &quot;, StringUtil.getBytes(testStr));
+	
+	testStr = &quot;dragmove&quot;
+	console.log(&quot;dragmove : &quot;, StringUtil.getBytes(testStr));
+	
+	testStr = &quot;김현석&quot;
+	console.log(&quot;김현석 : &quot;, StringUtil.getBytes(testStr));
+	 *&#x2F;
+	StringUtil.getBytes = function($str) {
+		var str = $str;
+		var bytes = 0;
+		for(var i=0,max=$str.length; i&lt;max; i++) {
+			bytes += (str.charCodeAt(i)&gt;128) ? 2 : 1;
+		}
+		return bytes;
+	};
+	
+	&#x2F;**
+	 * 문자열의 byte를 반환합니다.
+	 * 예를 들어, dog 라는 값은 cat 보다 큽니다. 
+	 * 이것은 d가 c 보다 알파벳 상에서 더 뒤에 있기 때문입니다.
+	 * 이는 한글을 비교할 때도 마찬가지입니다. 예를 들어, &#x27;다&#x27;는 &#x27;라&#x27;보다 작습니다.
+	 * 같은 문자열을 대소문자로만 구분하는 경우에는 알파벳 순으로 대문자가 소문자보다 큽니다.
+	 * 
+	 * 0 : $compareTargetStr과 $otherStr이 100% 일치합니다.
+	 * 1 : $compareTargetStr가 문자적으로 더 크다는 의미
+	 * -1 : $otherStr가 문자적으로 더 크다는 의미
+	 * 
+	 * @static
+	 * @method getCompareSortOrder
+	 * @param {String} $compareTargetStr compare target string
+	 * @param {String} $otherStr other string
+	 * @return {Number} Returns -1 or 0 or 1
+	 * @example
+	 *&#x2F;
+	StringUtil.getCompareSortOrder = function($compareTargetStr, $otherStr) {
+		return $compareTargetStr.localCompare($otherStr);
+	};
+	
+	return StringUtil;
+});
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>

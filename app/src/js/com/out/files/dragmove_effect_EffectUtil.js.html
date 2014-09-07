@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>dragmove\effect\EffectUtil.js</title>
+    <link rel="stylesheet" href="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;3.8.0pr2&#x2F;build&#x2F;cssgrids&#x2F;cssgrids-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="..&#x2F;assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="..&#x2F;assets/favicon.png">
+    <script src="http:&#x2F;&#x2F;yui.yahooapis.com&#x2F;combo?3.8.0pr2&#x2F;build&#x2F;yui&#x2F;yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="..&#x2F;assets/css/logo.png" title=""></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="..&#x2F;classes/ArrayUtil.html">ArrayUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/BrowserUtil.html">BrowserUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/CanvasUtil.html">CanvasUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/CheckUtil.html">CheckUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/ClipCircle.html">ClipCircle</a></li>
+            
+                <li><a href="..&#x2F;classes/ControlUtil.html">ControlUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/ControlUtil.SimpleTimer.html">ControlUtil.SimpleTimer</a></li>
+            
+                <li><a href="..&#x2F;classes/CookieUtil.html">CookieUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/DateData.html">DateData</a></li>
+            
+                <li><a href="..&#x2F;classes/Debug.html">Debug</a></li>
+            
+                <li><a href="..&#x2F;classes/EffectUtil.html">EffectUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/EffectUtil.EntranceExpansion.html">EffectUtil.EntranceExpansion</a></li>
+            
+                <li><a href="..&#x2F;classes/EffectUtil.TypeWriter.html">EffectUtil.TypeWriter</a></li>
+            
+                <li><a href="..&#x2F;classes/ImageLoader.html">ImageLoader</a></li>
+            
+                <li><a href="..&#x2F;classes/InitUtil.html">InitUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/InteractionUtil.html">InteractionUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/LanguageData.html">LanguageData</a></li>
+            
+                <li><a href="..&#x2F;classes/MathUtil.html">MathUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/MovieClip.html">MovieClip</a></li>
+            
+                <li><a href="..&#x2F;classes/NodeUtil.html">NodeUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/StringUtil.html">StringUtil</a></li>
+            
+                <li><a href="..&#x2F;classes/XmlUtil.html">XmlUtil</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: dragmove\effect\EffectUtil.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+&#x2F;*
+ * The MIT License
+ *
+ * Copyright (c) 2013 dragmove
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the &quot;Software&quot;), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and&#x2F;or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *&#x2F;
+
+define(function(require, exports, module) {
+	&#x2F;**
+	 * EffectUtil
+	 * @class EffectUtil
+	 * @constructor
+	 *&#x2F;
+
+	var EffectUtil = exports;
+	var StringUtil = require(&#x27;com&#x2F;dragmove&#x2F;util&#x2F;StringUtil&#x27;);
+	var ControlUtil = require(&#x27;com&#x2F;dragmove&#x2F;util&#x2F;ControlUtil&#x27;);
+	
+	&#x2F;**
+	 * Text TypeWrite Motion. need jQuery Library (html tag String can&#x27;t apply typeWriter motion.)
+	 * 
+	 * @class EffectUtil.TypeWriter
+	 * @constructor
+	 * @param {String} _txt
+	 * @param {DOM} _textNode
+	 * @param {Number} _typingTimerGap
+	 * @param {Boolean} _flag_startTimer
+	 * @requires jQuery, StringUtil, ControlUtil
+	 * @example
+	&lt;!-- DOM --&gt;
+	&lt;body&gt;
+		&lt;div id=&quot;typeWriterMotionContainer&quot;&gt;target textNode&lt;&#x2F;div&gt;
+	&lt;&#x2F;body&gt;
+	
+	var typeStr = &quot;매일 자신이 하기 싫은 일을 2가지 하는 것은 영혼을 위해서는 좋다. - 달과 6펜스&quot;;  
+	var _textNode = document.getElementById(&quot;typeWriterMotionContainer&quot;).firstChild; &#x2F;&#x2F;select textNode
+	
+	var _typeWriterEffect = new EffectUtil.TypeWriter(typeStr, _textNode, 40, false);
+	
+	$(_typeWriterEffect).bind(_typeWriterEffect.EFFECT_COMPLETE, completeTypeWriterEffect);
+	_typeWriterEffect.start();
+	
+	function completeTypeWriterEffect() {
+		console.log(&quot;completeTypeWriterEffect&quot;);
+	};
+	 *&#x2F;
+	EffectUtil.TypeWriter = function(_txt, _textNode, _typingTimerGap, _flag_startTimer) {
+		var _this = this;
+
+		&#x2F;&#x2F;Event
+		_this.EFFECT_COMPLETE = &quot;TypeWriter_EFFECT_COMPLETE&quot;;
+
+		&#x2F;&#x2F;public function
+		_this.destroy = function(_object) {
+			if(_timer) {
+				_timer.stop();
+				_timer.destroy();
+				_timer = null;
+			}
+			textArr = null;
+			textIndex = 0;
+			motionChaIndex = 0;
+			accumulateStr = &quot;&quot;;
+			flag_useTimerExperience = false;
+			flag_motionComplete = false;
+		};
+
+		_this.start = function(_flag_startMotionFromBeginning) {
+			if(!flag_useTimerExperience)
+				flag_useTimerExperience = true;
+			if(_flag_startMotionFromBeginning) {
+				flag_motionComplete = false;
+				textIndex = 0;
+				motionChaIndex = 0;
+				accumulateStr = &quot;&quot;;
+				_txtNode.nodeValue = &quot;&quot;;
+				if(_timer) {
+					_timer.stop();
+					_timer.start();
+				}
+			} else {
+				if(_timer) {
+					_timer.stop();
+					_timer.start();
+				}
+			}
+		};
+
+		_this.stop = function() {
+			if(_timer)
+				_timer.stop();
+		};
+		&#x2F;&#x2F;variables
+		var _timer;
+		var _txtNode;
+		var textArr;
+		var textIndex = 0;
+		var motionChaIndex = 0;
+		var accumulateStr = &quot;&quot;;
+		var flag_useTimerExperience = false;
+		var flag_motionComplete = false;
+
+		&#x2F;&#x2F;implement
+		if(_txt == undefined || _txt == &quot;&quot;) {
+			&#x2F;&#x2F;if(console) console.log(&quot;[com.dragmove.effect.effectUtil.TypeWriter] TypeWriter effect를 실행하기 위한 _txt value가 존재하지 않습니다.&quot;);
+			return null;
+		}
+		_txtNode = _textNode;
+		textArray = StringUtil.breakSetenceStr(_txt);
+
+		if(_timer) {
+			_timer.stop();
+			_timer.destroy();
+			_timer = null;
+		}
+		_timer = new ControlUtil.SimpleTimer(_typingTimerGap, this, performTypingMotion);
+		if(_flag_startTimer)
+			_timer.start();
+
+		&#x2F;&#x2F;private function
+		function performTypingMotion() {
+			if(flag_motionComplete) {
+				&#x2F;&#x2F;console.log(&quot;[com.dragmove.effect.effectUtil.TypeWriter] TypeWriter effect가 start() Function 사용 이후, 진행 완료된 상태입니다.&quot;);
+				flag_useTimerExperience = false;
+				if(_timer)
+					_timer.stop();
+				return;
+			}
+			var motionChaArr = textArray[textIndex];
+			var characterLength = motionChaArr.length;
+			var _str = motionChaArr[motionChaIndex];
+			_txtNode.nodeValue = accumulateStr + _str;
+			motionChaIndex++;
+			if(characterLength &lt;= motionChaIndex) {
+				accumulateStr += _str;
+				motionChaIndex = 0;
+				textIndex++;
+				if(textIndex &gt;= textArray.length) {
+					flag_useTimerExperience = false;
+					flag_motionComplete = true;
+					if(_timer) _timer.stop();
+					
+					&#x2F;&#x2F;dispatch effect complete event
+					var paramObj = {};
+					paramObj.type = _this.EFFECT_COMPLETE;
+					$(_this).trigger(paramObj);
+				}
+			}
+		}
+
+		return _this;
+	};
+	
+	&#x2F;**
+	 * Transition Entrace - Expansion. need TweenMax, jQuery Library (TEST COMPLETE - IE7,8,9, Chrome, Firefox, Safari, mobile Safari. iphone4, ipad3, galaxyS3)
+	 * 
+	 * @class EffectUtil.EntranceExpansion
+	 * @constructor
+	 * 
+	 * @example
+	&lt;!-- DOM --&gt;
+	&lt;div class=&quot;imageContainer&quot;&gt;
+		&lt;img class=&quot;circle&quot; width=&quot;200&quot; height=&quot;200&quot; src=&quot;.&#x2F;img&#x2F;circle.png&quot; alt=&quot;&quot; &#x2F;&gt;
+	&lt;&#x2F;div&gt; 
+	
+	var _$imageContainer = $(&quot;.imageContainer&quot;);
+	var _$circle = $(&quot;.circle&quot;, _$imageContainer);
+	
+	&#x2F;&#x2F;Entrance Expansion example
+	var _entranceExpansion = new EntranceExpansion();
+	
+	var initOpt = {
+		container:_$imageContainer.get(0),
+		imgInContainer:_$circle.get(0)
+	};
+	_entranceExpansion.init(initOpt);
+	
+	var entranceOpt = {
+		delay:2,
+		speed:1.5,
+		ease:Cubic.easeInOut
+	}
+	_entranceExpansion.entrance(entranceOpt);
+	 *&#x2F;
+	EffectUtil.EntranceExpansion = function() {
+		&#x2F;*
+		 * TEST COMPLETE - IE7,8,9, Chrome, Firefox, Safari, mobile Safari. iphone4, ipad3, galaxyS3 
+		 *&#x2F;
+		var _this = this;
+		
+		_this.entrance = function(_object) {
+			var delay = (_object.delay) ? _object.delay : 0;
+			var speed = _object.speed;
+			var easeStr = _object.ease;
+			
+			var _img = _$img.get(0);
+			if(_img) {
+				TweenMax.killTweensOf(_img);
+				TweenMax.to(_img, speed, {delay:delay, css:{top:imageTop, left:imageLeft, width:imageWidth, height:imageHeight}, ease:easeStr});
+			}
+		};
+		
+		_this.exit = function() {
+		};
+		
+		var _$container;
+		var _$img;
+		var imageTop;
+		var imageLeft;
+		var imageWidth;
+		var imageHeight;
+		
+		_this.init = function(_object) {
+			_$container = $(_object.container);
+			_$img = $(_object.imgInContainer);
+			
+			imageTop = parseFloat(_$img.css(&quot;top&quot;));
+			imageLeft = parseFloat(_$img.css(&quot;left&quot;));
+			imageWidth = _$img.attr(&quot;width&quot;);
+			imageHeight = _$img.attr(&quot;height&quot;);
+			
+			&#x2F;*
+			 * problem) when _$img width:0, height:0 setting, can&#x27;t expansion tween motion on mobile safari. so, set width:1px, height:1px
+			 *&#x2F;
+			_$img.css({width:1, height:1}); 
+			_$img.css({top:imageTop + imageHeight&#x2F;2, left:imageLeft + imageWidth&#x2F;2});
+		};
+		
+		_this.destroy = function() {
+			if(!_$img) return;
+			var _img = _$img.get(0);
+			if(_img) {
+				TweenMax.killTweensOf(_img);
+				_img = null;
+			}
+		};
+		
+		return _this;
+	};
+	
+	return EffectUtil;
+});
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="..&#x2F;assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="..&#x2F;assets/js/yui-prettify.js"></script>
+<script src="..&#x2F;assets/../api.js"></script>
+<script src="..&#x2F;assets/js/api-filter.js"></script>
+<script src="..&#x2F;assets/js/api-list.js"></script>
+<script src="..&#x2F;assets/js/api-search.js"></script>
+<script src="..&#x2F;assets/js/apidocs.js"></script>
+</body>
+</html>
