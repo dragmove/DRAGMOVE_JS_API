@@ -32,6 +32,32 @@ define(function(require, exports, module) {
 	var CheckUtil = exports;
 
 	/**
+	 * get object is null/undefined or other value.
+	 *
+	 * @static
+	 * @method existy
+	 * @param {Object} $object check target object
+	 * @return {Boolean} Returns true or false
+	 * @example
+	 */
+	CheckUtil.existy = function($object) {
+		return $object != null;
+	};
+
+	/**
+	 * get object is not false & exsit.
+	 *
+	 * @static
+	 * @method truthy
+	 * @param {Object} $object check target object
+	 * @return {Boolean} Returns true or false
+	 * @example
+	 */
+	CheckUtil.truthy = function($object) {
+		return ($object !== false) && CheckUtil.existy($object);
+	};
+
+	/**
 	 * get object is available
 	 *
 	 * @static

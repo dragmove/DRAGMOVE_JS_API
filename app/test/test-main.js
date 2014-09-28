@@ -15,6 +15,8 @@ require.config({
   paths: {
     'jquery': './lib/jquery-1.11.0.min',
     'ArrayUtil': './com/dragmove/util/ArrayUtil',
+    'CheckUtil': './com/dragmove/util/CheckUtil',
+    'StringUtil': './com/dragmove/util/StringUtil',
   },
 
   shim: {

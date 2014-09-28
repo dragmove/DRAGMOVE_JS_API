@@ -30,6 +30,153 @@ define(function(require, exports, module) {
 	 */
 
 	var StringUtil = exports;
+
+	/**
+	 * alphabet 2개가 연속되는 문자(대소문자 구분 없이)인지의 여부를 반환.
+	 *
+	 * @static
+	 * @method isContinueAlphabet
+	 * @param {String} _char
+	 * @param {String} _nextChar
+	 * @return {Boolean} Returns true or false
+	 * @example
+	var result = StringUtil.isContinueAlphabet('A', 'b'); //true
+	 */
+	StringUtil.isContinueAlphabet = function(_char, _nextChar) {
+		if(!_char || !_nextChar) return false;
+		var APB_STR = 'abcdefghijklmnopqrstuvwxyz',
+			charIndex = APB_STR.indexOf(_char.toLowerCase()),
+			nextCharIndex = APB_STR.indexOf(_nextChar.toLowerCase());
+		if(charIndex + 1 === nextCharIndex) return true;
+		return false;
+	};
+
+	/**
+	 * english string에서 연속되는 알파벳(abcd...) 형태 포함 여부 반환.
+	 *
+	 * @static
+	 * @method isStrHasContinueAlphabet
+	 * @param {String} _engStr
+	 * @param {Number} _continueCount
+	 * @param {Number} _searchIndex(option). default is 0.
+	 * @return {Boolean} Returns true or false
+	 * @example
+	var result = StringUtil.isStrHasContinueAlphabet('efgabHiJk', 3);
+	console.log(result); // true
+	 */
+	StringUtil.isStrHasContinueAlphabet = function(_engStr, _continueCount, _searchIndex) {
+		if(!_engStr) return false;
+		return _compareContinueAlphabet(_engStr, _continueCount, _searchIndex);
+
+		function _compareContinueAlphabet(_engStr, _continueCnt, _searchIndex) {
+			var engStr = _engStr,
+				continueCount = _continueCnt,
+				searchIndex = (_searchIndex < 0 || _searchIndex === null || _searchIndex === undefined) ? 0 : _searchIndex;
+			if(searchIndex >= engStr.length-1 ) return false;
+
+			var originalSearchIndex = _searchIndex,
+				isContinue = false;
+
+			var count = 0, val = '', prevVal = null;
+			for(var i=searchIndex,max=engStr.length; i<max; i++) {
+				val = engStr.charAt(i);
+				if(prevVal !== null) {
+					if( !StringUtil.isContinueAlphabet(prevVal, val) ) {
+						isContinue = false;
+						searchIndex = i;
+						break;
+					}
+				}
+				prevVal = val;
+				count++;
+
+				if(count >= continueCount) {
+					isContinue = true;
+					break;
+				}
+			}
+			if(isContinue) return true;
+			if(originalSearchIndex === searchIndex) searchIndex++;
+			return _compareContinueAlphabet(engStr, continueCount, searchIndex);
+		}
+	}
+
+	/**
+	 * '33341781234253'과 같은 number type string에서 연속되는 숫자(123...)와 같은 형태 포함 여부 반환.
+	 *
+	 * @static
+	 * @method isStrHasContinueNumber
+	 * @param {String} _numberStr
+	 * @param {Number} _continueCount
+	 * @param {Number} _searchIndex(option). default is 0.
+	 * @return {Boolean} Returns true or false
+	 * @example
+	var result = StringUtil.isStrHasContinueNumber('33341781234253', 3);
+	console.log(result); // true
+	 */
+	StringUtil.isStrHasContinueNumber = function(_numberStr, _continueCount, _searchIndex) {
+		if(!_numberStr) return false;
+		return _compareContinueNumber(_numberStr, _continueCount, _searchIndex);
+
+		function _compareContinueNumber(_numberStr, _continueCnt, _searchIndex) {
+			var numberStr = _numberStr,
+				continueCount = _continueCnt,
+				searchIndex = (_searchIndex < 0 || _searchIndex === null || _searchIndex === undefined) ? 0 : _searchIndex;
+			if(searchIndex >= numberStr.length-1) return false;
+
+			var originalSearchIndex = _searchIndex,
+				isContinueNumber = false;
+
+			var count = 0, val = '', prevVal = null;
+			for(var i=searchIndex,max=numberStr.length; i<max; i++) {
+				val = parseInt( numberStr.charAt(i) );
+				if(prevVal !== null) {
+					if(val !== prevVal + 1) {
+						isContinueNumber = false;
+						searchIndex = i;
+						break;
+					}
+				}
+				prevVal = val;
+				count++;
+
+				if(count >= continueCount) {
+					isContinueNumber = true;
+					break;
+				}
+			}
+			if(isContinueNumber) return true;
+			if(originalSearchIndex === searchIndex) searchIndex++;
+			return _compareContinueNumber(numberStr, continueCount, searchIndex);
+		}
+	}
+
+	/**
+	 * 'aaAabbbCcCcCc12333344444444556'과 같은 string에서 몇번 이상 반복되는 모든 string을 배열에 담아 반환.
+	 *
+	 * @static
+	 * @method getArrHasRepeatNumberStr
+	 * @param {String} _numberTypeStr
+	 * @param {Number} _andoverRepeatCount
+	 * @return {Array} Returns Array has repeat strings
+	 * @example
+	var array = StringUtil.getArrHasRepeatStr('aaAabbbCcCcCc12333344444444556', 3);
+	console.log(array); // ['aaAa', 'bbb', 'CcCcCc', '3333', '44444444']
+	 */
+	StringUtil.getArrHasRepeatStr = function(_numberTypeStr, _andoverRepeatCount) {
+		var returnArr = [],
+			regexp = new RegExp( '([a-zA-Z0-9])\\1{' + (_andoverRepeatCount-1) + ',}', 'gi' );
+		return _getArrayHasMatchStr(regexp, _numberTypeStr, returnArr);
+
+		function _getArrayHasMatchStr(_regexp, _str, _outputArr) {
+			var arr = _regexp.exec(_str);
+			if(arr && arr.length) {
+				_outputArr.push( arr[0] );
+				return _getArrayHasMatchStr(_regexp, _str, _outputArr);
+			}
+			return _outputArr;
+		}
+	};
 	
 	/**
 	 * "transform" or "transition" String를 Browser에 따라 javascript 속성명으로 수정하여 반환.
@@ -44,7 +191,6 @@ define(function(require, exports, module) {
 	
 	var valueStr = "rotateY(45deg)";
 	_divInstance.style[transformStr] = valueStr;
-	
 	 */
 	StringUtil.getPrefixedTransformTransitionPropertyStr = function(_transitionOrTransformStr) {
 		var i, s = document.createElement('p').style, v = ['ms','O','Moz','Webkit'];
