@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>app/src/js/com/dragmove/control/video/SimpleVideo.js</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="../assets/css/logo.png" title=""></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: </em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/ArrayUtil.html">ArrayUtil</a></li>
+            
+                <li><a href="../classes/BrowserUtil.html">BrowserUtil</a></li>
+            
+                <li><a href="../classes/CanvasUtil.html">CanvasUtil</a></li>
+            
+                <li><a href="../classes/CheckUtil.html">CheckUtil</a></li>
+            
+                <li><a href="../classes/ClipCircle.html">ClipCircle</a></li>
+            
+                <li><a href="../classes/ControlUtil.html">ControlUtil</a></li>
+            
+                <li><a href="../classes/ControlUtil.SimpleTimer.html">ControlUtil.SimpleTimer</a></li>
+            
+                <li><a href="../classes/CookieUtil.html">CookieUtil</a></li>
+            
+                <li><a href="../classes/DateData.html">DateData</a></li>
+            
+                <li><a href="../classes/Debug.html">Debug</a></li>
+            
+                <li><a href="../classes/EffectUtil.html">EffectUtil</a></li>
+            
+                <li><a href="../classes/EffectUtil.EntranceExpansion.html">EffectUtil.EntranceExpansion</a></li>
+            
+                <li><a href="../classes/EffectUtil.TypeWriter.html">EffectUtil.TypeWriter</a></li>
+            
+                <li><a href="../classes/FormUtil.html">FormUtil</a></li>
+            
+                <li><a href="../classes/ImageLoader.html">ImageLoader</a></li>
+            
+                <li><a href="../classes/InitUtil.html">InitUtil</a></li>
+            
+                <li><a href="../classes/InteractionUtil.html">InteractionUtil</a></li>
+            
+                <li><a href="../classes/LanguageData.html">LanguageData</a></li>
+            
+                <li><a href="../classes/MathUtil.html">MathUtil</a></li>
+            
+                <li><a href="../classes/MovieClip.html">MovieClip</a></li>
+            
+                <li><a href="../classes/NodeUtil.html">NodeUtil</a></li>
+            
+                <li><a href="../classes/RegExpData.html">RegExpData</a></li>
+            
+                <li><a href="../classes/SimpleVideo.html">SimpleVideo</a></li>
+            
+                <li><a href="../classes/StringUtil.html">StringUtil</a></li>
+            
+                <li><a href="../classes/XmlUtil.html">XmlUtil</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: app/src/js/com/dragmove/control/video/SimpleVideo.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+/*
+ * The MIT License
+ *
+ * Copyright (c) 2013 dragmove
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the &quot;Software&quot;), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ */
+
+define(function(require, exports, module) {
+	/**
+	 * SimpleVideo
+	 * @class SimpleVideo
+	 * @constructor
+	 * 
+	 * @example
+	&lt;!-- DOM --&gt;
+	&lt;video id=&quot;thevideo&quot;&gt; &lt;!-- use &#x27;poster=&quot;img/videoPoster.png&quot;&#x27; create error -_-); can view video playing --&gt; 
+		&lt;source src=&quot;data/video/video_1.webm&quot; type=&#x27;video/webm&#x27; /&gt;
+		&lt;source src=&quot;data/video/video_1.mp4&quot; type=&#x27;video/mp4&#x27; /&gt;
+		&lt;source src=&quot;data/video/video_1.ogv&quot; type=&#x27;video/ogg&#x27; /&gt;
+		don&#x27;t support html5 video
+	&lt;/video&gt;
+	
+	&lt;!-- JS --&gt;
+	var _simpleVideo;
+		
+	$(document).ready(function() {
+		init();
+	});
+	
+	function init() {
+		var _video = $(&quot;#thevideo&quot;).get(0);
+		
+		_simpleVideo = new SimpleVideo();
+		$(_simpleVideo).bind(_simpleVideo.CAN_PLAY_VIDEO, videoEventHandler);
+		$(_simpleVideo).bind(_simpleVideo.CAN_PLAYTHROUGH_VIDEO, videoEventHandler);
+		
+		$(_simpleVideo).bind(_simpleVideo.PROGRESS_LOAD_VIDEO, videoEventHandler);
+		$(_simpleVideo).bind(_simpleVideo.COMPLETE_LOAD_VIDEO, videoEventHandler);
+		$(_simpleVideo).bind(_simpleVideo.ALERT_DISABLE_SEEK_TIME, videoEventHandler);
+		
+		_simpleVideo.init({
+			video:_video
+		});
+		
+		_simpleVideo.play();
+	}
+	
+	function videoEventHandler($evt) {
+		switch($evt.type) {
+			case _simpleVideo.CAN_PLAY_VIDEO :
+				console.log(&quot;CAN_PLAY_VIDEO&quot;);
+			break;
+			
+			case _simpleVideo.CAN_PLAYTHROUGH_VIDEO :
+				console.log(&quot;CAN_PLAYTHROUGH_VIDEO&quot;);
+				_simpleVideo.play();
+				
+				TweenMax.delayedCall(2, function() {
+					_simpleVideo.setVolume(0.2);
+				});
+			break;
+			
+			case _simpleVideo.PROGRESS_LOAD_VIDEO :
+				console.log(&quot;$evt.percentage :&quot;, $evt.percentage);
+			break;
+			
+			case _simpleVideo.COMPLETE_LOAD_VIDEO :
+				console.log(&quot;COMPLETE_LOAD_VIDEO&quot;);
+			break;
+			
+			case _simpleVideo.ALERT_DISABLE_SEEK_TIME :
+				console.log(&quot;ALERT_DISABLE_SEEK_TIME&quot;);
+			break;
+		}
+	}
+	 */
+	var SimpleVideo = function() {
+		var _this = this;
+		
+		/*
+		 * Event
+		 */
+		_this.CAN_PLAY_VIDEO = &quot;SimpleVideo_CAN_PLAY_VIDEO&quot;;
+		_this.CAN_PLAYTHROUGH_VIDEO = &quot;SimpleVideo_CAN_PLAYTHROUGH_VIDEO&quot;;
+		_this.PROGRESS_LOAD_VIDEO = &quot;SimpleVideo_PROGRESS_LOAD_VIDEO&quot;;
+		_this.COMPLETE_LOAD_VIDEO = &quot;SimpleVideo_COMPLETE_LOAD_VIDEO&quot;;
+		_this.DISABLE_SEEK_TIME = &quot;SimpleVideo_DISABLE_SEEK_TIME&quot;;
+		_this.ABORT = &quot;SimpleVideo_ABORT&quot;;
+		_this.ERROR = &quot;SimpleVideo_ERROR&quot;;
+		_this.WAITING = &quot;SimpleVideo_WAITING&quot;;
+		_this.PLAYING = &quot;SimpleVideo_PLAYING&quot;;
+		_this.ENDED = &quot;SimpleVideo_ENDED&quot;;
+		
+		/**
+		 * get video DOM
+		 *
+		 * @method getVideo
+		 * @return {DOM} Returns Video DOM
+		 */
+		_this.getVideo = function() {
+			return _video;
+		}
+		
+		/**
+		 * get download percentage(0 ~ 1)
+		 *
+		 * @method getDownloadPercentage
+		 * @return {Number} Returns Number(0 ~ 1)
+		 */
+		_this.getDownloadPercentage = function() {
+			var _downloadPercentage = parseInt( _video.buffered.end(0) / _video.duration );
+			return _downloadPercentage;
+		};
+		
+		/**
+		 * get video duration
+		 *
+		 * @method getDuration
+		 * @return {Number} Returns Number
+		 */
+		_this.getDuration = function() {
+			return _video.duration;
+		};
+		
+		/**
+		 * get video currentTime
+		 *
+		 * @method getCurrentTime
+		 * @return {Number} Returns Number
+		 */
+		_this.getCurrentTime = function() {
+			return _video.currentTime;
+		};
+		
+		/**
+		 * get video ended
+		 *
+		 * @method getEnded
+		 * @return {Boolean} Returns true or false
+		 */
+		_this.getEnded = function() {
+			return _video.ended;
+		};
+		
+		/**
+		 * get video muted
+		 *
+		 * @method getMuted
+		 * @return {Boolean} Returns true or false
+		 */
+		_this.getMuted = function() {
+			return _video.muted;
+		};
+		
+		/**
+		 * get video paused
+		 *
+		 * @method getPaused
+		 * @return {Boolean} Returns true or false
+		 */
+		_this.getPaused = function() {
+			return _video.paused;
+		};
+		
+		/**
+		 * get video volume (0 ~ 1)
+		 *
+		 * @method getVolume
+		 * @return {Number} Returns Number(0 ~ 1)
+		 */
+		_this.getVolume = function() {
+			return _video.volume;
+		};
+		
+		/**
+		 * pause video
+		 *
+		 * @method pause
+		 * @return {Void}
+		 */
+		_this.pause = function() {
+			_video.pause();
+		};
+		
+		/**
+		 * play video
+		 *
+		 * @method play
+		 * @return {Void}
+		 */
+		_this.play = function() {
+			/*
+			if(!flag_canPlayVideo) {
+				console.log(&quot;1. play cant&quot;);
+				return;
+			}
+			if(!flag_canPlayThrough) {
+				console.log(&quot;2. play cant&quot;);
+				return;
+			} 
+			*/
+			if(_video) _video.play();
+		};
+		
+		/**
+		 * stop video
+		 *
+		 * @method stop
+		 * @return {Void}
+		 */
+		_this.stop = function() {
+			_video.pause();
+			_video.currentTime = 0;
+		};
+		
+		/**
+		 * seek video
+		 *
+		 * @method seekTime
+		 * @param {Number} seekTime 
+		 * @return {Void}
+		 */
+		_this.seekTime = function(seekTime) {
+			try {
+				if(seekTime &lt;= 0) seekTime = 0;
+				if(seekTime &gt;= _video.duration) seekTime = _video.duration;
+				_video.currentTime = seekTime;
+			} catch(error) {
+				//require devolop
+				$(_this).trigger({
+					type:_this.DISABLE_SEEK_TIME
+				});
+			}
+		};
+		
+		/**
+		 * mute video
+		 *
+		 * @method setMute
+		 * @param {Boolean} flag true or false 
+		 * @return {Void}
+		 */
+		_this.setMute = function(flag) {
+			_video.muted = flag;
+		};
+		
+		/**
+		 * set video volume
+		 *
+		 * @method setVolume
+		 * @param {Number} volume video volume(0 ~ 1) 
+		 * @return {Void}
+		 */
+		_this.setVolume = function(volume) {
+			if(volume &lt;= 0) volume = 0;
+			if(volume &gt;= 1) volume = 1;
+			_video.volume = volume;
+		};
+		
+		/*
+		 * private variables
+		 */
+		//var flag_canPlayThrough = false;
+		//var flag_canPlayVideo = false;
+		var _video = null;
+		var downloadPercentage = 0;
+		
+		/**
+		 * init SimpleVideo instance. {video:video DOM}
+		 *
+		 * @method init
+		 * @param {Object} object Objecct include video argument 
+		 * @return {Void}
+		 */
+		_this.init = function(object) {
+			_video = object.video;
+			if(!_video) {
+				throw new Error(&quot;init() method parameter object.video is undefined.&quot;);
+				return;
+			}
+			
+			//loadStart, progress, suspend, abort, error, emptied, stalled, loadedmetadata,
+			//loadeddata, canplay, canplaythrough, playing, waiting, seeking, seeked, ended, 
+			//durationchange, timeupdate, play, pause, ratechange, volumechange
+			$(_video).bind(&quot;progress&quot;, progressStatusCheckHandler);
+			$(_video).bind(&quot;canplay&quot;, canPlayHandler);
+			$(_video).bind(&quot;canplaythrough&quot;, canPlayThroughCheckHandler); //chrome don&#x27;t trigger this event
+			$(_video).bind(&quot;abort&quot;, videoEventHandler);
+			$(_video).bind(&quot;error&quot;, videoEventHandler);
+			$(_video).bind(&quot;waiting&quot;, videoEventHandler);
+			$(_video).bind(&quot;playing&quot;, videoEventHandler);
+			$(_video).bind(&quot;ended&quot;, videoEventHandler);
+		};
+		
+		/**
+		 * destroy SimpleVideo instance
+		 *
+		 * @method init
+		 * @return {Void}
+		 */
+		_this.destroy = function() {
+			if(_video) {
+				$(_video).unbind(&quot;progress&quot;, progressStatusCheckHandler);
+				$(_video).unbind(&quot;canplay&quot;, canPlayHandler);
+				$(_video).unbind(&quot;canplaythrough&quot;, canPlayThroughCheckHandler); //chrome don&#x27;t trigger this event
+				_video = null;
+			}
+			//flag_canPlayThrough = false;
+			//flag_canPlayVideo = false;
+			downloadPercentage = 0;
+		};
+		
+		function progressStatusCheckHandler() {
+			downloadPercentage = parseInt( _video.buffered.end(0) / _video.duration );
+			$(_this).trigger({
+				type:_this.PROGRESS_LOAD_VIDEO,
+				percentage:downloadPercentage
+			});
+			
+			if(downloadPercentage &gt;= 1) {
+				$(_this).trigger({
+					type:_this.COMPLETE_LOAD_VIDEO
+				});
+			}
+		}
+		
+		function canPlayHandler() {
+			//if(flag_canPlayVideo) return;
+			//flag_canPlayVideo = true;
+			
+			$(_this).trigger({
+				type:_this.CAN_PLAY_VIDEO
+			});
+		}
+		
+		function canPlayThroughCheckHandler() {
+			//chrome don&#x27;t trigger this event
+			
+			//if(flag_canPlayThrough) return;
+			//flag_canPlayThrough = true; 
+			
+			$(_this).trigger({
+				type:_this.CAN_PLAYTHROUGH_VIDEO
+			});
+		}
+		
+		function videoEventHandler(evt) {
+			switch(evt.type) {
+				case &quot;abort&quot; :
+					$(_this).trigger({
+						type:_this.ABORT
+					});
+				break;
+				
+				case &quot;error&quot; :
+					$(_this).trigger({
+						type:_this.ERROR
+					});
+				break;
+				
+				case &quot;waiting&quot; :
+					$(_this).trigger({
+						type:_this.WAITING
+					});
+				break;
+				
+				case &quot;playing&quot; :
+					$(_this).trigger({
+						type:_this.PLAYING
+					});
+				break;
+				
+				case &quot;ended&quot; :
+					$(_this).trigger({
+						type:_this.ENDED
+					});
+				break;
+			}
+		}
+		
+		return _this;
+	};
+	
+	return SimpleVideo;
+});
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>
