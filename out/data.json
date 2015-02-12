@@ -1737,6 +1737,22 @@
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
             "line": 62,
+            "description": "get browser support Audio",
+            "static": 1,
+            "itemtype": "method",
+            "name": "isSupportAudio",
+            "return": {
+                "description": "Returns true or false",
+                "type": "Boolean"
+            },
+            "example": [
+                ""
+            ],
+            "class": "BrowserUtil"
+        },
+        {
+            "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
+            "line": 76,
             "description": "open window",
             "itemtype": "method",
             "name": "openWindow",
@@ -1820,7 +1836,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 114,
+            "line": 128,
             "description": "get Browser window.screenX or window.screenLeft",
             "static": 1,
             "itemtype": "method",
@@ -1836,7 +1852,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 130,
+            "line": 144,
             "description": "get Browser window.screenY or window.screenTop",
             "static": 1,
             "itemtype": "method",
@@ -1852,7 +1868,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 146,
+            "line": 160,
             "description": "get Browser width except menubar, toolbar, scrollbar and etc. (get Browser width includes scrollbar on IE)",
             "static": 1,
             "itemtype": "method",
@@ -1868,7 +1884,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 170,
+            "line": 184,
             "description": "get Browser height except menubar, toolbar, scrollbar and etc. (get Browser height includes scrollbar on IE)",
             "static": 1,
             "itemtype": "method",
@@ -1884,7 +1900,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 194,
+            "line": 208,
             "description": "get Document scrollWidth",
             "static": 1,
             "itemtype": "method",
@@ -1900,7 +1916,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 210,
+            "line": 224,
             "description": "get Document scrollHeight",
             "static": 1,
             "itemtype": "method",
@@ -1916,7 +1932,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 226,
+            "line": 240,
             "description": "get Document pageXOffset or scrollLeft",
             "static": 1,
             "itemtype": "method",
@@ -1932,7 +1948,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 244,
+            "line": 258,
             "description": "get Document pageYOffset or scrollTop",
             "static": 1,
             "itemtype": "method",
@@ -1948,7 +1964,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 262,
+            "line": 276,
             "description": "get Document innerWidth or offsetWidth",
             "static": 1,
             "itemtype": "method",
@@ -1964,7 +1980,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 280,
+            "line": 294,
             "description": "get Document innerHeight or offsetHeight",
             "static": 1,
             "itemtype": "method",
@@ -1980,7 +1996,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 298,
+            "line": 312,
             "description": "get Browser is IE",
             "static": 1,
             "itemtype": "method",
@@ -1996,7 +2012,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 310,
+            "line": 324,
             "description": "get IE Browser version no. if browser is not IE, return -1.",
             "static": 1,
             "itemtype": "method",
@@ -2012,7 +2028,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 329,
+            "line": 343,
             "description": "get browser is IE6",
             "static": 1,
             "itemtype": "method",
@@ -2028,7 +2044,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 342,
+            "line": 356,
             "description": "get browser is IE7",
             "static": 1,
             "itemtype": "method",
@@ -2044,7 +2060,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 355,
+            "line": 369,
             "description": "get browser is IE8",
             "static": 1,
             "itemtype": "method",
@@ -2060,7 +2076,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 368,
+            "line": 382,
             "description": "get browser is IE9",
             "static": 1,
             "itemtype": "method",
@@ -2076,7 +2092,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 381,
+            "line": 395,
             "description": "get browser is Firefox",
             "static": 1,
             "itemtype": "method",
@@ -2092,7 +2108,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 394,
+            "line": 408,
             "description": "get browser is Opera",
             "static": 1,
             "itemtype": "method",
@@ -2108,7 +2124,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 406,
+            "line": 420,
             "description": "get browser is Chrome",
             "static": 1,
             "itemtype": "method",
@@ -2124,7 +2140,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 418,
+            "line": 432,
             "description": "get browser is Safari",
             "static": 1,
             "itemtype": "method",
@@ -2140,7 +2156,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 436,
+            "line": 450,
             "description": "get browser is Mobile browser",
             "static": 1,
             "itemtype": "method",
@@ -2156,7 +2172,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 448,
+            "line": 462,
             "description": "get browser is MobileSafari",
             "static": 1,
             "itemtype": "method",
@@ -2172,7 +2188,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 460,
+            "line": 474,
             "description": "get Device is iPad",
             "static": 1,
             "itemtype": "method",
@@ -2188,7 +2204,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 472,
+            "line": 486,
             "description": "get Device is iPhone",
             "static": 1,
             "itemtype": "method",
@@ -2204,7 +2220,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 484,
+            "line": 498,
             "description": "get Device is iPod",
             "static": 1,
             "itemtype": "method",
@@ -2220,7 +2236,7 @@
         },
         {
             "file": "app/src/js/com/dragmove/util/BrowserUtil.js",
-            "line": 496,
+            "line": 510,
             "description": "get Device is Android",
             "static": 1,
             "itemtype": "method",

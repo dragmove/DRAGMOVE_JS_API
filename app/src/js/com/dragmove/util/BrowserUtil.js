@@ -58,6 +58,20 @@ define(function(require, exports, module) {
 	BrowserUtil.getFlagSupportCanvas = function() {
 		return !!document.createElement('canvas').getContext;
 	};
+
+	/**
+	 * get browser support Audio
+	 *
+	 * @static
+	 * @method isSupportAudio
+	 * @return {Boolean} Returns true or false
+	 * @example
+	 */
+	BrowserUtil.isSupportAudio = function() {
+		var audio = document.createElement('audio');
+        if(typeof audio.canPlayType === 'function') return true;
+        return false;
+	};
 	
 	/**
 	* open window 
